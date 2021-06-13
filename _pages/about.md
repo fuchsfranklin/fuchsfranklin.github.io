@@ -14,3 +14,8 @@ My Interests
 ======
 The areas that I am most interested in and have the most experience with are binary classification, dimensionality reduction, and predictive modeling. In addition to mathematics and statistics, I am especially interested in immunology and bioinformatics. Programming in relation to high-performance computing and web application development are other areas I find particularly engaging. In my free time, I like to code, I work out, and I practice mindfulness meditation.
 
+Contact Me
+======
+
+* ![envelope-regular](envelope-regular.svg): [fuchs.franklin@gmail.com](mailto:fuchs.franklin@gmail.com)
+* ![github-brands](github-brands.svg): [fuchsfranklin](https://github.com/fuchsfranklin)
