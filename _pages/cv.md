@@ -11,49 +11,104 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+### Johns Hopkins University
+_ScM in Biostatistics_
+2021 - 2023
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+### University of Nevada, Reno
+_BS in Mathematics (Statistics Emphasis), Minor in Big Data_
+2017 - 2021
+* Honors Thesis: “A Comparative Study of Machine Learning Techniques for Imbalanced Pediatric Patient Traumatic Brain Injury Mortality Prediction”
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
-Publications
+Work and Research
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+### Pfizer – Dr. Liang Xue
+_Software Development Intern_
+Jun. 2021 - Aug. 2021
+
+### UNR Visual Perception Lab – Dr. Daniel Joyce
+_Student Researcher ([HURA](https://www.unr.edu/undergradresearch/opportunities/hura) Award Funded)_
+Jan. 2021 - May. 2021 
+* Porting sleep classification algorithms from R to MATLAB and validating models with real-world sensor data.
+* Pre-processing light-intensity/movement sensor data and programming a graphical user interface for data visualization with MATLAB.
+* Building, programming, and calibrating a low-cost Arduino-based wrist-wearable for circadian rhythm measurement using C/C++.
+
+### Nevada IDeA Network of Biomedical Research Excellence – Dr. Mihye Ahn
+_Student Researcher ([INBRE UROP](https://med.unr.edu/inbre/programs-and-projects/student-training-programs/undergraduate-program) Award Funded)_  
+Jan. 2020 - Jan. 2021
+- Developed a user-friendly R Shiny web-application to deploy the best-performing prediction model.
+- Containerized parallelized R-based analyses in Docker and Singularity to minimize model training times on local high-performance computing clusters.
+- Minimized class imbalance effects of models using case-weighted models, subsampling techniques, and robust performance evaluation metrics.
+- Utilized both supervised machine learning and traditional statistical methods for pediatric patient traumatic brain injury predictive modeling.
+
+### UNR Department of Mathematics - Dr. Grant Schissler
+_Undergraduate Research Assistant_
+Aug. 2019 - Jan. 2020
+* Recommended future medical student outcome data collection and data evaluation strategies.
+* Conducted R-based frequentist and bayesian regression analyses to assess the difference of the new UNR medical school curriculum.
+* Performed data cleaning, numerical/visual exploratory data analysis, and assumption checking on medical school datasets in R.
+
+### Swiss Armed Forces, Nuclear, Biological, Chemical (NBC) Defense School
+_Biology Laboratory Specialist_
+Jul. 2016 - Dec. 2016
+- Identified microbiological hazards using multiple bacterial identification approaches.
+- Performed bacterial contamination analyses in a Biosafety Level 3 laboratory.
+- Worked as team coordinator to summarize, deliver, and present daily analysis results in an clear, concise, and timely manner. 
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
   
-Teaching
+Teaching and Tutoring
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
+### UNR Honors College
+_Honors Peer Coach and Teaching Assistant_
+Aug. 2019 - May. 2021
+- Provided individual academic and professional mentorship and guidance to cohorts of 5-8 honors students in computer science and mathematics.
+- Taught, held office hours, and graded for an introductory honors course on academic integrity, undergraduate research, and professional networking.
   
-Service and leadership
+### UNR Department of Mathematics
+_Statistics Grader_
+Jan. 2020 - May 2020
+- Graded homework, quizzes, and exams related to the statistical theory and R-implementation of linear models.  
+
+### UNR Department of Computer Science
+_Computer Science Teaching Fellow_
+Jan. 2018 - Apr. 2019
+- Taught, tutored, and graded for the C language programming course.
+- Held weekly reviews and workshops on best practices to optimize and format C code.
+
+Skills and Interests
 ======
-* Currently signed in to 43 different slack teams
+* __Programming Languages__: R, Python, SQL, C++, C, MATLAB
+* __Software__: Docker, Singularity, SLURM, Markdown, Shiny, LaTeX, Linux Shell, Office Suite, Git, and GitHub
+* __Modeling and Computing__: Machine Learning, Classification, Regression, Predictive Analytics, Feature Engineering, Variable Selection, Exploratory Data Analysis, High-Performance/Cluster Computing, Containerization, Database Design and Implementation, Web-Application Development
+* __Interests__: Running, Mindfulness Meditation, Weight Training, Bullet Journaling, and Coding
+
+
+Posters, Presentations, and Projects
+======
+* "A Low-Cost Arduino-Based Wearable for Circadian Rhythm Measurement and Light Exposure Classification"
+  * UNR Undergraduate Research Symposium Presentation
+* "A comparative study of machine learning techniques for imbalanced pediatric patient traumatic brain injury (TBI) mortality prediction"
+  * Honors Thesis and \(R-based\) Mortality Prediction Web-Application
+* "Pediatric Traumatic Brain Injury Survival Prediction"
+  * Research poster presented at the 2020 IEEE International Conference on Bioinformatics and Biomedicine and Fall UNLV Undergraduate Research Symposium
+* "An Intuitive Introduction to Metropolis-Hastings Algorithm Sampling and Diagnostics"
+  * Personal \(R-based\) Project 
+* "Personal Website and Project Portfolio"
+  * Personal \(R-based\) Project
+* "Bayesian Regression Model analyzing the UNR medical School Curriculum Change"
+  * Research poster presented at the UNR Fall 2019 Statistical Computing Capstone Competition
+* "Comparing Regularization Techniques on Simulated Data"
+  * Personal (R-based) Project
+  
+Awards
+======
+* Honors Undergraduate Research Award (HURA)
+  * \$1,500 undergraduate research funding and \$500 mentor stipend
+
+* Nevada 2020 IDeA Network of Biomedical Research Excellence (INBRE) Undergraduate Research Opportunity (UROP)
+  * \$6,000 undergraduate research funding, \$1000 mentor stipend, and weekly seminars on bioethics, medical grant writing, current biomedical practices, and preparation for a career in biomedical research
+  
+* 1st Place, 2019 Capstone Statistical Computing Project Competition
+  * For undergraduate research results and poster presentation regarding the bayesian modeling of medical student outcomes
