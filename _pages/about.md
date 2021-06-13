@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I recently graduated with an honors BS in Mathematics \(Statistics Emphasis\) from UNR. This summer I am software development intern at Pfizer, where I am working with Dr. Liang Xue and the Simulation and Modeling Science (SMS) group to deploy an automated pipeline incorporating existing tools for data processing, focusing on achieving ultrafast computing with high reproducibility and scalability, as well as data management and visualization. This fall, I will be attending Johns Hopkins University for an ScM in Biostatistics.
+I recently graduated with an Honors BS in Mathematics \(Statistics Emphasis\) from UNR. This summer I am software development intern at Pfizer, where I am working with Dr. Liang Xue and the Simulation and Modeling Science (SMS) group to deploy an automated pipeline incorporating existing tools for data processing, focusing on achieving ultrafast computing with high reproducibility and scalability, as well as data management and visualization. This fall, I will be attending Johns Hopkins University for an ScM in Biostatistics.
 
 My Interests
 ======
