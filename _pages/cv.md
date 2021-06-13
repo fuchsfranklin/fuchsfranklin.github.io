@@ -11,37 +11,37 @@ redirect_from:
 
 Education
 ======
-__Johns Hopkins University__ <br />
+### Johns Hopkins University
 _ScM in Biostatistics_ 2021 - 2023
 
-__University of Nevada, Reno__ <br />
+### University of Nevada, Reno
 _Honors BS in Mathematics (Statistics Emphasis), Minor in Big Data_ 2017 - 2021
 
 Work and Research
 ======
-__Pfizer – Dr. Liang Xue__ <br />
+### Pfizer – Dr. Liang Xue
 _Software Development Intern_ Jun. 2021 - Aug. 2021
 
-__UNR Visual Perception Lab – Dr. Daniel Joyce__ <br />
+### UNR Visual Perception Lab – Dr. Daniel Joyce
 _Student Researcher ([HURA](https://www.unr.edu/undergradresearch/opportunities/hura) Award Funded)_ Jan. 2021 - May. 2021 
 * Porting sleep classification algorithms from R to MATLAB and validating models with real-world sensor data.
 * Pre-processing light-intensity/movement sensor data and programming a graphical user interface for data visualization with MATLAB.
 * Building, programming, and calibrating a low-cost Arduino-based wrist-wearable for circadian rhythm measurement using C/C++.
 
-__Nevada IDeA Network of Biomedical Research Excellence – Dr. Mihye Ahn__ <br />
+### Nevada IDeA Network of Biomedical Research Excellence – Dr. Mihye Ahn
 _Student Researcher ([INBRE UROP](https://med.unr.edu/inbre/programs-and-projects/student-training-programs/undergraduate-program) Award Funded)_ Jan. 2020 - Jan. 2021
 * Developed a user-friendly R Shiny web-application to deploy the best-performing prediction model.
 * Containerized parallelized R-based analyses in Docker and Singularity to minimize model training times on local high-performance computing clusters.
 * Minimized class imbalance effects of models using case-weighted models, subsampling techniques, and robust performance evaluation metrics.
 * Utilized both supervised machine learning and traditional statistical methods for pediatric patient traumatic brain injury predictive modeling.
 
-__UNR Department of Mathematics - Dr. Grant Schissler__ <br />
+### UNR Department of Mathematics - Dr. Grant Schissler
 _Undergraduate Research Assistant_ Aug. 2019 - Jan. 2020
 * Recommended future medical student outcome data collection and data evaluation strategies.
 * Conducted R-based frequentist and bayesian regression analyses to assess the difference of the new UNR medical school curriculum.
 * Performed data cleaning, numerical/visual exploratory data analysis, and assumption checking on medical school datasets in R.
 
-__Swiss Armed Forces, Nuclear, Biological, Chemical (NBC) Defense School__ <br />
+### Swiss Armed Forces, Nuclear, Biological, Chemical (NBC) Defense School
 _Biology Laboratory Specialist_ Jul. 2016 - Dec. 2016
 * Identified microbiological hazards using multiple bacterial identification approaches.
 * Performed bacterial contamination analyses in a Biosafety Level 3 laboratory.
@@ -51,16 +51,16 @@ _Biology Laboratory Specialist_ Jul. 2016 - Dec. 2016
 Teaching and Tutoring
 ======
 
-__UNR Honors College__
+### UNR Honors College
 _Honors Peer Coach and Teaching Assistant_ Aug. 2019 - May. 2021
 * Provided individual academic and professional mentorship and guidance to cohorts of 5-8 honors students in computer science and mathematics.
 * Taught, held office hours, and graded for an introductory honors course on academic integrity, undergraduate research, and professional networking.
   
-__UNR Department of Mathematics__
+### UNR Department of Mathematics
 _Statistics Grader_ Jan. 2020 - May 2020
 - Graded homework, quizzes, and exams related to the statistical theory and R-implementation of linear models.  
 
-__UNR Department of Computer Science__
+### UNR Department of Computer Science
 _Computer Science Teaching Fellow_ Jan. 2018 - Apr. 2019
 - Taught, tutored, and graded for the C language programming course.
 - Held weekly reviews and workshops on best practices to optimize and format C code.
