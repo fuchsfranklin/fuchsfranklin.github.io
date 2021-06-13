@@ -17,5 +17,5 @@ The areas that I am most interested in and have the most experience with are bin
 Contact Me
 ======
 
-* ![](Images/envelope-regular.svg =50x): [fuchs.franklin@gmail.com](mailto:fuchs.franklin@gmail.com)
-* ![](Images/github-brands.svg =50x): [fuchsfranklin](https://github.com/fuchsfranklin)
+* ![|512x397, 5%](Images/envelope-regular.svg =50x): [fuchs.franklin@gmail.com](mailto:fuchs.franklin@gmail.com)
+* ![|512x397, 5%](Images/github-brands.svg =50x): [fuchsfranklin](https://github.com/fuchsfranklin)
