@@ -13,9 +13,3 @@ I recently graduated with an Honors BS in Mathematics \(Statistics Emphasis\) fr
 My Interests
 ======
 The areas that I am most interested in and have the most experience with are binary classification, dimensionality reduction, and predictive modeling. In addition to mathematics and statistics, I am especially interested in immunology and bioinformatics. Programming in relation to high-performance computing and web application development are other areas I find particularly engaging. In my free time, I like to code, I work out, and I practice mindfulness meditation.
-
-Contact Me
-======
-
-* ![|512x397, 5%](Images/envelope-regular.svg =50x): [fuchs.franklin@gmail.com](mailto:fuchs.franklin@gmail.com)
-* ![|512x397, 5%](Images/github-brands.svg =50x): [fuchsfranklin](https://github.com/fuchsfranklin)

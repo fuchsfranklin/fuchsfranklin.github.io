@@ -9,10 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
-# Curriculum Vitae
+Curriculum Vitae
+======
 
 Education
-======
+------
 ### Johns Hopkins University
 _ScM in Biostatistics_ (2021 - 2023)
 
@@ -23,7 +24,7 @@ _Honors BS in Mathematics (Statistics Emphasis), Minor in Big Data_ (2017 - 2021
 
 
 Work and Research
-======
+------
 ### Pfizer – Dr. Liang Xue
 _Software Development Intern_ (Jun. 2021 - Aug. 2021)
 
@@ -54,7 +55,7 @@ _Biology Laboratory Specialist_ (Jul. 2016 - Dec. 2016)
   
   
 Teaching and Tutoring
-======
+------
 
 ### UNR Honors College
 _Honors Peer Coach and Teaching Assistant_ (Aug. 2019 - May. 2021)
@@ -71,7 +72,7 @@ _Computer Science Teaching Fellow_ (Jan. 2018 - Apr. 2019)
 - Held weekly reviews and workshops on best practices to optimize and format C code.
 
 Skills and Interests
-======
+------
 * __Programming Languages__: R, Python, SQL, C++, C, MATLAB
 * __Software__: Docker, Singularity, SLURM, Markdown, Shiny, LaTeX, Linux Shell, Office Suite, Git, and GitHub
 * __Modeling and Computing__: Machine Learning, Classification, Regression, Predictive Analytics, Feature Engineering, Variable Selection, Exploratory Data Analysis, High-Performance/Cluster Computing, Containerization, Database Design and Implementation, Web-Application Development
@@ -79,7 +80,7 @@ Skills and Interests
 
 
 Posters, Presentations, and Projects
-======
+------
 * __"A Low-Cost Arduino-Based Wearable for Circadian Rhythm Measurement and Light Exposure Classification"__
   * UNR Undergraduate Research Symposium Presentation (2021)
 * __"A comparative study of machine learning techniques for imbalanced pediatric patient traumatic brain injury (TBI) mortality prediction"__
@@ -96,7 +97,7 @@ Posters, Presentations, and Projects
   * Personal (R-based) Project (2019)
   
 Awards
-======
+------
 * __Honors Undergraduate Research Award (HURA)__
   * 1,500 dollar undergraduate research funding and 500 dollar mentor stipend (2021)
 
