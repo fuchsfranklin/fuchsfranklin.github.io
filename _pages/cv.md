@@ -81,27 +81,27 @@ Skills and Interests
 Posters, Presentations, and Projects
 ======
 * __"A Low-Cost Arduino-Based Wearable for Circadian Rhythm Measurement and Light Exposure Classification"__
-  * UNR Undergraduate Research Symposium Presentation, 2021
+  * UNR Undergraduate Research Symposium Presentation (2021)
 * __"A comparative study of machine learning techniques for imbalanced pediatric patient traumatic brain injury (TBI) mortality prediction"__
-  * Honors Thesis and \(R-based\) Mortality Prediction Web-Application, 2021
+  * Honors Thesis and \(R-based\) Mortality Prediction Web-Application (2021)
 * __"Pediatric Traumatic Brain Injury Survival Prediction"__
-  * Research poster presented at the IEEE International Conference on Bioinformatics and Biomedicine and Fall UNLV Undergraduate Research Symposium, 2020
+  * Research poster presented at the IEEE International Conference on Bioinformatics and Biomedicine and Fall UNLV Undergraduate Research Symposium (2020)
 * __"An Intuitive Introduction to Metropolis-Hastings Algorithm Sampling and Diagnostics"__
-  * Personal \(R-based\) Project, 2020
+  * Personal \(R-based\) Project (2020)
 * __"Personal Website and Project Portfolio"__
-  * Personal \(R-based\) Project, 2020
+  * Personal \(R-based\) Project (2020)
 * __"Bayesian Regression Model analyzing the UNR medical School Curriculum Change"__
-  * Research poster presented at the UNR Fall 2019 Statistical Computing Capstone Competition, 2019
+  * Research poster presented at the UNR Fall 2019 Statistical Computing Capstone Competition (2019)
 * __"Comparing Regularization Techniques on Simulated Data"__
-  * Personal (R-based) Project, 2019
+  * Personal (R-based) Project (2019)
   
 Awards
 ======
 * __Honors Undergraduate Research Award (HURA)__
-  * 1,500 dollar undergraduate research funding and 500 dollar mentor stipend, 2021
+  * 1,500 dollar undergraduate research funding and 500 dollar mentor stipend (2021)
 
 * __Nevada 2020 IDeA Network of Biomedical Research Excellence (INBRE) Undergraduate Research Opportunity (UROP)__
-  * 6,000 dollar undergraduate research funding, 1000 mentor stipend, and weekly seminars on bioethics, medical grant writing, current biomedical practices, and preparation for a career in biomedical research, 2020
+  * 6,000 dollar undergraduate research funding, 1000 mentor stipend, and weekly seminars on bioethics, medical grant writing, current biomedical practices, and preparation for a career in biomedical research (2020)
   
 * __1st Place, 2019 Capstone Statistical Computing Project Competition__
-  * For undergraduate research results and poster presentation regarding the bayesian modeling of medical student outcomes, 2019
+  * For undergraduate research results and poster presentation regarding the bayesian modeling of medical student outcomes (2019)
