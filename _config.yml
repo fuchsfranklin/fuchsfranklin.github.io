@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Franklin Fuchs"
 title_separator          : "-"
 name                     : &name "Franklin Fuchs"
-description              : &description "personal description"
+description              : &description "JHU Biostatistics ScM Student"
 url                      : https://fuchsfranklin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/fuchsfranklin/fuchsfranklin.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Franklin Fuchs"
   avatar           : "profile.png"
-  bio              : "Honors Student in Mathematics and Statistics at the University of Nevada, Reno."
-  location         : "Reno, NV"
+  bio              : "Biostatistics ScM Student at Johns Hopkins University."
+  location         : "Balitmore, MD"
   employer         :
   pubmed           : 
   googlescholar    : 
