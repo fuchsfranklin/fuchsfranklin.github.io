@@ -14,10 +14,10 @@ Curriculum Vitae
 
 Education
 ------
-- ### Johns Hopkins University
+* __Johns Hopkins University__
 	_ScM in Biostatistics_ (2021 - 2023)
 	
-- ### University of Nevada, Reno
+* __University of Nevada, Reno__
 	_Honors BS in Mathematics (Statistics Emphasis), Minor in Big Data_ (2017 - 2021)
 	* Cumulative GPA: 3.963/4.000
 	* Honors Thesis: “A Comparative Study of Machine Learning Techniques for Imbalanced Pediatric Patient Traumatic Brain Injury Mortality Prediction”
