@@ -23,14 +23,14 @@ Education
 
 Work and Research
 ------
-* __Pfizer – Dr. Liang Xue__ \- _Software Development Intern_ (Jun. 2021 - Aug. 2021)
+* __Pfizer Simulation and Modeling Science (SMS) Group – Dr. Liang Xue__ \- _Software Development Intern_ (Jun. 2021 - Aug. 2021)
 
 * __UNR Visual Perception Lab – Dr. Daniel Joyce__ \- _Student Researcher ([HURA](https://www.unr.edu/undergradresearch/opportunities/hura) Award Funded)_ (Jan. 2021 - May. 2021) 
 	* Porting sleep classification algorithms from R to MATLAB and validating models with real-world sensor data.
 	* Pre-processing light-intensity/movement sensor data and programming a graphical user interface for data visualization with MATLAB.
 	* Building, programming, and calibrating a low-cost Arduino-based wrist-wearable for circadian rhythm measurement using C/C++.
 
-* __Nevada IDeA Network of Biomedical Research Excellence – Dr. Mihye Ahn__ \- _Student Researcher ([INBRE UROP](https://med.unr.edu/inbre/programs-and-projects/student-training-programs/undergraduate-program) Award Funded)_ (Jan. 2020 - Jan. 2021)
+* __Nevada IDeA Network of Biomedical Research Excellence & UNR Department of Mathematics – Dr. Mihye Ahn__ \- _Student Researcher ([INBRE UROP](https://med.unr.edu/inbre/programs-and-projects/student-training-programs/undergraduate-program) Award Funded)_ (Jan. 2020 - Jan. 2021)
 	* Developed a user-friendly R Shiny web-application to deploy the best-performing prediction model.
 	* Containerized parallelized R-based analyses in Docker and Singularity to minimize model training times on local high-performance computing clusters.
 	* Minimized class imbalance effects of models using case-weighted models, subsampling techniques, and robust performance evaluation metrics.
@@ -41,7 +41,7 @@ Work and Research
 	* Conducted R-based frequentist and bayesian regression analyses to assess the difference of the new UNR medical school curriculum.
 	* Performed data cleaning, numerical/visual exploratory data analysis, and assumption checking on medical school datasets in R.
 
-* __Swiss Armed Forces, Nuclear, Biological, Chemical (NBC) Defense School__ \- _Biology Laboratory Specialist_ (Jul. 2016 - Dec. 2016)
+* __Swiss Armed Forces Nuclear, Biological, Chemical (NBC) Defense School__ \- _Biology Laboratory Specialist_ (Jul. 2016 - Dec. 2016)
 	* Identified microbiological hazards using multiple bacterial identification approaches.
 	* Performed bacterial contamination analyses in a Biosafety Level 3 laboratory.
 	* Worked as team coordinator to summarize, deliver, and present daily analysis results in an clear, concise, and timely manner. 
@@ -51,8 +51,8 @@ Teaching and Tutoring
 ------
 
 * __UNR Honors College__ \- _Honors Peer Coach and Teaching Assistant_ (Aug. 2019 - May. 2021)
+    * Taught, held office hours, and graded for an introductory honors course on academic integrity, undergraduate research, and professional networking.
 	* Provided individual academic and professional mentorship and guidance to cohorts of 5-8 honors students in computer science and mathematics.
-	* Taught, held office hours, and graded for an introductory honors course on academic integrity, undergraduate research, and professional networking.
   
 * __UNR Department of Mathematics__ \- _Statistics Grader_ (Jan. 2020 - May 2020)
 	* Graded homework, quizzes, and exams related to the statistical theory and R-implementation of linear models.  
@@ -66,8 +66,6 @@ Skills and Interests
 * __Programming Languages__: R, Python, SQL, C++, C, MATLAB
 * __Software__: Docker, Singularity, SLURM, Markdown, Shiny, LaTeX, Linux Shell, Office Suite, Git, and GitHub
 * __Modeling and Computing__: Machine Learning, Classification, Regression, Predictive Analytics, Feature Engineering, Variable Selection, Exploratory Data Analysis, High-Performance/Cluster Computing, Containerization, Database Design and Implementation, Web-Application Development
-* __Interests__: Running, Mindfulness Meditation, Weight Training, Bullet Journaling, and Coding
-
 
 Posters, Presentations, and Projects
 ------
