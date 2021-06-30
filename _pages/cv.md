@@ -21,7 +21,7 @@ Education
 	* Honors Thesis: “A Comparative Study of Machine Learning Techniques for Imbalanced Pediatric Patient Traumatic Brain Injury Mortality Prediction”
 
 
-Work and Research
+Work
 ------
 * __Pfizer Simulation and Modeling Science (SMS) Group – Dr. Liang Xue__ \- _Software Development Intern_ (Jun. 2021 - Aug. 2021)
 
