@@ -30,7 +30,7 @@ Work
 	* Pre-processing light-intensity/movement sensor data and programming a graphical user interface for data visualization with MATLAB.
 	* Building, programming, and calibrating a low-cost Arduino-based wrist-wearable for circadian rhythm measurement using C/C++.
 
-* __Nevada IDeA Network of Biomedical Research Excellence & UNR Department of Mathematics – Dr. Mihye Ahn__ \- _Student Researcher ([INBRE UROP](https://med.unr.edu/inbre/programs-and-projects/student-training-programs/undergraduate-program) Award Funded)_ (Jan. 2020 - Jan. 2021)
+* __Nevada IDeA Network of Biomedical Research Excellence – Dr. Mihye Ahn__ \- _Student Researcher ([INBRE UROP](https://med.unr.edu/inbre/programs-and-projects/student-training-programs/undergraduate-program) Award Funded)_ (Jan. 2020 - Jan. 2021)
 	* Developed a user-friendly R Shiny web-application to deploy the best-performing prediction model.
 	* Containerized parallelized R-based analyses in Docker and Singularity to minimize model training times on local high-performance computing clusters.
 	* Minimized class imbalance effects of models using case-weighted models, subsampling techniques, and robust performance evaluation metrics.
