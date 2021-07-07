@@ -18,7 +18,7 @@ Education
 	
 * __University of Nevada, Reno__ \- _Honors BS in Mathematics (Statistics Emphasis), Minor in Big Data_ (2017 - 2021)
 	* Cumulative GPA: 3.963/4.000
-	* Honors Thesis: “A Comparative Study of Machine Learning Techniques for Imbalanced Pediatric Patient Traumatic Brain Injury Mortality Prediction”
+	* Honors Thesis \(supervised by Dr. Mihye Ahn\): “A Comparative Study of Machine Learning Techniques for Imbalanced Pediatric Patient Traumatic Brain Injury Mortality Prediction”
 
 
 Work
