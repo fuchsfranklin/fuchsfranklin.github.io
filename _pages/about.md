@@ -12,4 +12,4 @@ I recently graduated with an honors BS in mathematics (statistics emphasis) and 
 
 My Interests
 ======
-The areas that I am most interested in are data software development, biomedical data science, and predictive modeling. In addition to statistics and biostatistics, I enjoy learning about immunology and bioinformatics. Programming in relation to high-performance computing and web application development are other areas I find particularly engaging. In my free time, I like to code, I work out, and I practice mindfulness meditation.
+The areas that I am most interested in are predictive modeling, data software development, and biomedical data science. In addition to statistics and biostatistics, I enjoy learning about immunology and bioinformatics. Programming in relation to high-performance computing and web application development are other areas I find particularly engaging. In my free time, I like to code, I work out, and I practice mindfulness meditation.
