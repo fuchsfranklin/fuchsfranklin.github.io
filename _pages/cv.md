@@ -17,7 +17,6 @@ Education
 * __The Johns Hopkins University__ \- _ScM in Biostatistics_ (2021 - 2023)
 	
 * __University of Nevada, Reno__ \- _Honors BS in Mathematics (Statistics Emphasis), Minor in Big Data_ (2017 - 2021)
-	* Honors Thesis \(Supervised by Dr. Mihye Ahn\): “A Comparative Study of Machine Learning Techniques for Imbalanced Pediatric Patient Traumatic Brain Injury Mortality Prediction”
 
 
 Work
