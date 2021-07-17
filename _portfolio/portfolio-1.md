@@ -1,7 +1,12 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Pediatric Traumatic Brain Injury (TBI) Mortality Prediction Web-Application
+"
+excerpt: "(R-based) Programming Project 1<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+__Project Introduction__
+
+
+This pediatric TBI prediction web-application is part of my honors thesis on imbalanced outcome pediatric patient mortality classification, where the best-performing C5.0 decision tree classifier trained on Synthetic Minority Over-sampling TEchnique (SMOTE) subsampled data is the predictive model implemented here. Potential applications of such a web-application, as recommended to us by clinicians, could be when either diagnosis by a clinician is not possible or as an indirect clinicians aid to give an approximate survival estimate for parents or guardians. Simplicity, speed, and portability were the main priorities considered when developing the application.
+
