@@ -14,9 +14,9 @@ Curriculum Vitae
 
 Education
 ------
-* __Johns Hopkins University__ \- _Biostatistics ScM_ (2021 - 2023)
+* __Johns Hopkins University__ \- _ScM in Biostatistics_ (2021 - 2023)
 	
-* __University of Nevada, Reno__ \- _Honors Mathematics BS (Statistics Emphasis), Big Data Minor, Cum Laude_ (2017 - 2021)
+* __University of Nevada, Reno__ \- _Honors BS in Mathematics (Statistics Emphasis), Minor in Big Data, Cum Laude_ (2017 - 2021)
 
 Work
 ------
