@@ -1,7 +1,8 @@
 ---
 title: "Pediatric Traumatic Brain Injury (TBI) Mortality Prediction Web-Application
 "
-excerpt: "An R Shiny based web-application for predicting the mortality of pediatric TBI patients.<br/><img src='/images/500x300.png'>"
+excerpt: "(R-based Programming Project)
+          An R Shiny web-application for predicting the mortality of pediatric TBI patients.<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
