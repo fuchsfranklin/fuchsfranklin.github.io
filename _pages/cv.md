@@ -62,7 +62,7 @@ Skills and Interests
 ------
 * __Programming Languages__: R, Python, SQL, C++, C, MATLAB
 * __Software__: Docker, Singularity, SLURM, Markdown, Shiny, LaTeX, Linux Shell, Office Suite, Git, and GitHub
-* __Modeling and Computing__: Machine Learning, Classification, Regression, Predictive Analytics, Feature Engineering, Variable Selection, Exploratory Data Analysis, High-Performance/Cluster Computing, Containerization, Database Design and Implementation, Web-Application Development
+* __Modeling and Computing__: Classification, Regression, Predictive Analytics, Feature Engineering, Variable Selection, Exploratory Data Analysis, High-Performance/Cluster Computing, Containerization, Database Design and Implementation, Web-Application Development
 
 Posters, Presentations, and Projects
 ------
