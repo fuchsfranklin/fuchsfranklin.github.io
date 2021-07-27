@@ -8,7 +8,7 @@ collection: portfolio
 
 [<i class="fa fa-fw fa-code" aria-hidden="true"></i>](https://github.com/fuchsfranklin/MCMC-Visualization-Project) GitHub Code Repository
 
-## Project Introduction
+## Project Overview
 
 ###### _(R and Shiny-based Programming Project)_
 
