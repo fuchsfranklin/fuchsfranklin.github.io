@@ -1,14 +1,15 @@
 ---
-title: "Pediatric Traumatic Brain Injury (TBI) Mortality Prediction Web-Application
-"
+title: "Pediatric Traumatic Brain Injury (TBI) Mortality Prediction Web-Application"
 excerpt: "(R-based Programming Project)
           An R Shiny web-application for predicting the mortality of pediatric TBI patients.<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
-[<i class="fa fa-fw fa-link" aria-hidden="true"></i> Deployed Web-Application](https://franklinfuchs.shinyapps.io/Pediatric-TBI-Prediction-Application/)
+&nbsp;
 
-[<i class="fa fa-fw fa-code" aria-hidden="true"></i> GitHub Code Repository](https://github.com/fuchsfranklin/Pediatric-TBI-Prediction-Application)
+[<i class="fa fa-fw fa-link" aria-hidden="true"></i>](https://franklinfuchs.shinyapps.io/Pediatric-TBI-Prediction-Application/) Deployed Web-Application
+
+[<i class="fa fa-fw fa-code" aria-hidden="true"></i>](https://github.com/fuchsfranklin/Pediatric-TBI-Prediction-Application) GitHub Code Repository
 
 ## Project Introduction
 
