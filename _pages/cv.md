@@ -33,7 +33,7 @@ Work
 	* Minimized class imbalance effects of models using case-weighted models, subsampling techniques, and robust performance evaluation metrics.
 	* Utilized both supervised machine learning and traditional statistical methods for pediatric patient traumatic brain injury predictive modeling.
 
-* __UNR Department of Mathematics - Dr. Grant Schissler__ \- _Undergraduate Research Assistant_ (Aug. 2019 - Jan. 2020)
+* __UNR Department of Mathematics - Dr. Grant Schissler__ \- _Statistics Research Assistant_ (Aug. 2019 - Jan. 2020)
 	* Recommended future medical student outcome data collection and data evaluation strategies.
 	* Conducted R-based frequentist and bayesian regression analyses to assess the difference of the new UNR medical school curriculum.
 	* Performed data cleaning, numerical/visual exploratory data analysis, and assumption checking on medical school datasets in R.
