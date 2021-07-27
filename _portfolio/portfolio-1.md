@@ -1,6 +1,6 @@
 ---
 title: "Pediatric Traumatic Brain Injury (TBI) Mortality Prediction Web-Application"
-excerpt: "An R-based Shiny web-application for predicting the mortality of pediatric TBI patients.<br/><img src='/images/tbi_prediction_webapp.png'>"
+excerpt: "An R and Shiny-based programming project deploying the best-performing C5.0 decision tree classifier trained on Synthetic Minority Over-sampling TEchnique (SMOTE) subsampled National Trauma Databank (NTDB) data."
 collection: portfolio
 ---
 
