@@ -27,9 +27,9 @@ Skills and Interests
 Work
 ------
 * __Pfizer Simulation and Modeling Science (SMS) Group – Dr. Liang Xue__ \- _Software Development Intern_ (Jun. 2021 - Aug. 2021)
-	* Implemented an automated data pipeline in R for Pfizer scientists and groups to conduct computational proteomics cloud task execution and management.
+	* Implemented an automated data pipeline in R, for Pfizer scientists and groups to conduct computational proteomics cloud task execution and management.
     * Standardized core pipeline elements, using API’s for virtual private cloud interfacing and MySQL database task logging.
-    * Developed an R Shiny-based General User Interface, using reactivity, datatable, and dashboard layout tools to provide user-friendly access to pipeline tools.
+    * Developed an R Shiny-based General User Interface, using reactivity, datatable, and dashboard layout elements to provide user-friendly access to pipeline tools.
     * Wrote Markdown-based documentation to provide software functionality and usage instructions.
 
 	
