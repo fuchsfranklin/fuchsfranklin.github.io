@@ -27,7 +27,11 @@ Skills and Interests
 Work
 ------
 * __Pfizer Simulation and Modeling Science (SMS) Group – Dr. Liang Xue__ \- _Software Development Intern_ (Jun. 2021 - Aug. 2021)
-	* 
+	* Implemented an automated data pipeline in R for Pfizer scientists and groups to conduct computational proteomics cloud task execution and management.
+    * Standardized core pipeline elements, using API’s for virtual private cloud interfacing and MySQL database task logging.
+    * Developed an R Shiny-based General User Interface, using reactivity, datatable, and dashboard layout tools to provide user-friendly access to pipeline tools.
+    * Wrote Markdown-based documentation to provide software functionality and usage instructions.
+
 	
 * __UNR Visual Perception Lab – Dr. Daniel Joyce__ \- _Student Researcher ([HURA](https://www.unr.edu/undergradresearch/opportunities/hura) Award Funded)_ (Jan. 2021 - May. 2021) 
 	* Porting sleep classification algorithms from R to MATLAB and validating models with real-world sensor data.
@@ -72,7 +76,7 @@ Posters, Presentations, and Projects
 * __"A Low-Cost Arduino-Based Wearable for Circadian Rhythm Measurement and Light Exposure Classification"__
   * UNR Undergraduate Research Symposium Presentation (2021)
 * __"Pediatric Traumatic Brain Injury Survival Prediction"__
-  * Research poster presented at the IEEE International Conference on Bioinformatics and Biomedicine (([doi: 10.1109/BIBM49941.2020.9313568](https://www.computer.org/csdl/proceedings-article/bibm/2020/09313568/1qmfXYaXGfK) Award Funded)) and Fall UNLV Undergraduate Research Symposium (2020)
+  * Research poster presented at the IEEE International Conference on Bioinformatics and Biomedicine ([doi: 10.1109/BIBM49941.2020.9313568](https://www.computer.org/csdl/proceedings-article/bibm/2020/09313568/1qmfXYaXGfK)) and Fall UNLV Undergraduate Research Symposium (2020)
 * __"An Intuitive Introduction to Metropolis-Hastings Algorithm Sampling and Diagnostics"__
   * Personal \(R-based\) Project (2020)
 * __"Personal Website and Project Portfolio"__
