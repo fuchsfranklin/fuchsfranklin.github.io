@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Curriculum Vitae
+Expanded Resume/CV
 ======
 
 Education
