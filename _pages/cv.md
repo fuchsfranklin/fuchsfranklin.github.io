@@ -27,11 +27,10 @@ Skills and Interests
 Work
 ------
 * __Pfizer Simulation and Modeling Science (SMS) Group – Dr. Liang Xue__ \- _Software Development Intern_ (Jun. 2021 - Aug. 2021)
-	* Implemented an automated data pipeline in R, for Pfizer scientists and groups to conduct computational proteomics cloud task execution and management.
+	* Implemented an automated data pipeline in R, providing computational proteomics cloud task execution and management capabilities to Pfizer scientists and groups in a standardized manner.
     * Standardized core pipeline elements, using API’s for virtual private cloud interfacing and MySQL database task logging.
     * Developed an R Shiny-based General User Interface, using reactivity, datatable, and dashboard layout elements to provide user-friendly access to pipeline tools.
     * Wrote Markdown-based documentation to provide software functionality and usage instructions.
-
 	
 * __UNR Visual Perception Lab – Dr. Daniel Joyce__ \- _Student Researcher ([HURA](https://www.unr.edu/undergradresearch/opportunities/hura) Award Funded)_ (Jan. 2021 - May. 2021) 
 	* Porting sleep classification algorithms from R to MATLAB and validating models with real-world sensor data.
@@ -72,7 +71,7 @@ Teaching and Tutoring
 Posters, Presentations, and Projects
 ------
 * __"Standardized Proteomics Pipeline Software Development"__
-  * Pfizer Simulation and Modeling Science (SMS) and Molecular Informatics (MI) group demonstrations of functionality and usage for developed pipeline (2021)
+  * Pfizer Simulation and Modeling Science (SMS) and Molecular Informatics (MI) group demonstrations of functionality and usage for the implemented pipeline tools (2021)
 * __"A Low-Cost Arduino-Based Wearable for Circadian Rhythm Measurement and Light Exposure Classification"__
   * UNR Undergraduate Research Symposium Presentation (2021)
 * __"Pediatric Traumatic Brain Injury Survival Prediction"__
