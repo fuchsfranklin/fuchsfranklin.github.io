@@ -18,10 +18,17 @@ Education
 	
 * __University of Nevada, Reno__ \- _Honors BS in Mathematics (Statistics Emphasis), Minor in Big Data_ (2017 - 2021)
 
+Skills and Interests
+------
+* __Programming Languages__: R, Python, SQL, C++, C, MATLAB
+* __Software__: Docker, Singularity, SLURM, Markdown, Shiny, LaTeX, Linux Shell, Office Suite, Git, and GitHub
+* __Modeling and Computing__: Classification, Regression, Predictive Analytics, Feature Engineering, Variable Selection, Exploratory Data Analysis, High-Performance/Cluster Computing, Containerization, Database Design and Implementation, Web-Application Development
+
 Work
 ------
 * __Pfizer Simulation and Modeling Science (SMS) Group – Dr. Liang Xue__ \- _Software Development Intern_ (Jun. 2021 - Aug. 2021)
-
+	* 
+	
 * __UNR Visual Perception Lab – Dr. Daniel Joyce__ \- _Student Researcher ([HURA](https://www.unr.edu/undergradresearch/opportunities/hura) Award Funded)_ (Jan. 2021 - May. 2021) 
 	* Porting sleep classification algorithms from R to MATLAB and validating models with real-world sensor data.
 	* Pre-processing light-intensity/movement sensor data and programming a graphical user interface for data visualization with MATLAB.
@@ -57,12 +64,6 @@ Teaching and Tutoring
 * __UNR Department of Computer Science__ \- _Computer Science Teaching Fellow_ (Jan. 2018 - Apr. 2019)
 	* Taught, tutored, and graded for the C language programming course.
 	* Held weekly reviews and workshops on best practices to optimize and format C code.
-
-Skills and Interests
-------
-* __Programming Languages__: R, Python, SQL, C++, C, MATLAB
-* __Software__: Docker, Singularity, SLURM, Markdown, Shiny, LaTeX, Linux Shell, Office Suite, Git, and GitHub
-* __Modeling and Computing__: Classification, Regression, Predictive Analytics, Feature Engineering, Variable Selection, Exploratory Data Analysis, High-Performance/Cluster Computing, Containerization, Database Design and Implementation, Web-Application Development
 
 Posters, Presentations, and Projects
 ------
