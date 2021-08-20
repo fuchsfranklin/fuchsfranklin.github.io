@@ -67,7 +67,7 @@ Skills and Interests
 Posters, Presentations, and Projects
 ------
 * __"Standardized Proteomics Pipeline Software Development"__
-  * Pfizer Simulation and Modeling Science (SMS) and Molecular Informatics (MI) group presentations/demonstrations regarding data pipeline background, functionality, and usage presentation and demonstration (2021)
+  * Pfizer Simulation and Modeling Science (SMS) and Molecular Informatics (MI) group demonstrations of functionality and usage for developed pipeline (2021)
 * __"A Low-Cost Arduino-Based Wearable for Circadian Rhythm Measurement and Light Exposure Classification"__
   * UNR Undergraduate Research Symposium Presentation (2021)
 * __"Pediatric Traumatic Brain Injury Survival Prediction"__
