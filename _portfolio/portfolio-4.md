@@ -12,6 +12,6 @@ collection: portfolio
 
 ###### _(R and Shiny-based Programming Project)_
 
- I created this project as my previous personal website to improve my R Shiny and HTML programming skills. Given that Shiny applications are more dynamic and are adapted to visualizing and making statistical analyses more interactive, I decided to retire this web-application for a static website.
+ I created this project as my previous personal website to improve my R Shiny and HTML programming skills. Given that Shiny applications are more dynamic and are adapted to making statistical analyses more interactive, I decided to retire this web-application and use my current website instead.
 
 
