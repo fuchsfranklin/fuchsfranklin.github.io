@@ -66,12 +66,12 @@ Skills and Interests
 
 Posters, Presentations, and Projects
 ------
+* __"Standardized Proteomics Pipeline Software Development"__
+  * Pfizer Simulation and Modeling Science (SMS) and Molecular Informatics (MI) group presentations/demonstrations regarding data pipeline background, functionality, and usage presentation and demonstration (2021)
 * __"A Low-Cost Arduino-Based Wearable for Circadian Rhythm Measurement and Light Exposure Classification"__
   * UNR Undergraduate Research Symposium Presentation (2021)
-* __"A comparative study of machine learning techniques for imbalanced pediatric patient traumatic brain injury (TBI) mortality prediction"__
-  * Honors Thesis and \(R-based\) Mortality Prediction Web-Application (2021)
 * __"Pediatric Traumatic Brain Injury Survival Prediction"__
-  * Research poster presented at the IEEE International Conference on Bioinformatics and Biomedicine and Fall UNLV Undergraduate Research Symposium (2020)
+  * Research poster presented at the IEEE International Conference on Bioinformatics and Biomedicine (([doi: 10.1109/BIBM49941.2020.9313568](https://www.computer.org/csdl/proceedings-article/bibm/2020/09313568/1qmfXYaXGfK) Award Funded)) and Fall UNLV Undergraduate Research Symposium (2020)
 * __"An Intuitive Introduction to Metropolis-Hastings Algorithm Sampling and Diagnostics"__
   * Personal \(R-based\) Project (2020)
 * __"Personal Website and Project Portfolio"__
