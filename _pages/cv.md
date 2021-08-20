@@ -91,7 +91,7 @@ Awards
   * 1,500 dollar undergraduate research funding and 500 dollar mentor stipend (2021)
 
 * __Nevada 2020 IDeA Network of Biomedical Research Excellence (INBRE) Undergraduate Research Opportunity (UROP)__
-  * 6,000 dollar undergraduate research funding, 1000 mentor stipend, and weekly seminars on bioethics, medical grant writing, current biomedical practices, and preparation for a career in biomedical research (2020)
+  * 6,000 dollar undergraduate research funding, 1000 dollar mentor stipend, and weekly seminars on bioethics, medical grant writing, current biomedical practices, and preparation for a career in biomedical research (2020)
   
 * __1st Place, 2019 Capstone Statistical Computing Project Competition__
   * For undergraduate research results and poster presentation regarding the bayesian modeling of medical student outcomes (2019)
