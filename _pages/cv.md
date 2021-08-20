@@ -33,9 +33,9 @@ Work
     * Wrote Markdown-based documentation to provide software functionality and usage instructions.
 	
 * __UNR Visual Perception Lab – Dr. Daniel Joyce__ \- _Student Researcher ([HURA](https://www.unr.edu/undergradresearch/opportunities/hura) Award Funded)_ (Jan. 2021 - May. 2021) 
-	* Porting sleep classification algorithms from R to MATLAB and validating models with real-world sensor data.
-	* Pre-processing light-intensity/movement sensor data and programming a graphical user interface for data visualization with MATLAB.
-	* Building, programming, and calibrating a low-cost Arduino-based wrist-wearable for circadian rhythm measurement using C/C++.
+	* Ported sleep classification algorithms from R to MATLAB and validating models with real-world sensor data.
+	* Pre-processed light-intensity/movement sensor data and programming a graphical user interface for data visualization with MATLAB.
+	* Built, programmed, and calibrated a low-cost Arduino-based wrist-wearable for circadian rhythm measurement using C/C++.
 
 * __Nevada IDeA Network of Biomedical Research Excellence – Dr. Mihye Ahn__ \- _Student Researcher ([INBRE UROP](https://med.unr.edu/inbre/programs-and-projects/student-training-programs/undergraduate-program) Award Funded)_ (Jan. 2020 - Jan. 2021)
 	* Developed a user-friendly R Shiny web-application to deploy the best-performing prediction model.
