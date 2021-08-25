@@ -28,8 +28,8 @@ Work
 ------
 * __Pfizer Simulation and Modeling Science (SMS) Group – Dr. Liang Xue__ \- _Software Development Intern_ (Jun. 2021 - Aug. 2021)
 	* Implemented an automated data pipeline in R, providing standardized computational proteomics cloud task execution and management capabilities.
-    * Developed an R Shiny-based General User Interface, using reactivity, datatable, and dashboard layout elements to provide user-friendly access to pipeline tools.
 	* Optimized core pipeline elements, using API’s for virtual private cloud interfacing and MySQL database task logging.
+    * Developed an R Shiny-based General User Interface, using reactivity, datatable, and dashboard layout elements to provide user-friendly access to pipeline tools.
     * Wrote Markdown-based documentation to provide software functionality and usage instructions.
 	
 * __UNR Visual Perception Lab – Dr. Daniel Joyce__ \- _Student Researcher ([HURA](https://www.unr.edu/undergradresearch/opportunities/hura) Award Funded)_ (Jan. 2021 - May. 2021) 
