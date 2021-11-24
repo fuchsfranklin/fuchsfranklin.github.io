@@ -1,17 +1,17 @@
 ---
-title: "An R Shiny App to Introduce and Apply Basic Surival Analysis Ideas"
-excerpt: "This is a project I am currently working on with Tiffany Hsieh and Bowen Chen at Hopkins to introduce and apply survival analysis ideas in the format of a web-application. Given the availability of a public covid-related survival dataset which we wanted to further explore, we aimed to outline several basic survival analysis concepts in a non-mathematical manner and then apply those concepts to the aforementioned dataset, while trying to make use of the interactivity elements R Shiny provides."
+title: "Shiny-Based Personal Project Portfolio Web-Application"
+excerpt: "I created this project as my previous personal website to improve my R Shiny and HTML programming skills. Given that Shiny applications are more dynamic and are made for visualizing and making statistical analyses more interactive, I decided to retire this web-application for this current website."
 collection: portfolio
 ---
 <br />
-[<i class="fa fa-fw fa-link" aria-hidden="true"></i>](https://franklinf.shinyapps.io/Survival-Analysis-Project/) Deployed Web-Application
+[<i class="fa fa-fw fa-link" aria-hidden="true"></i>](https://franklinfuchs.shinyapps.io/Personal-Website/) Deployed Web-Application
 
-[<i class="fa fa-fw fa-code" aria-hidden="true"></i>](https://github.com/fuchsfranklin/Survival-Analysis-Project) GitHub Code Repository
+[<i class="fa fa-fw fa-code" aria-hidden="true"></i>](https://github.com/fuchsfranklin/Personal-Website) GitHub Code Repository
 
 ## Project Overview
 
 ###### _(R and Shiny-based Programming Project)_
 
- This is a project I am currently working on with Tiffany Hsieh and Bowen Chen at Hopkins to introduce and apply survival analysis ideas in the format of a web-application. Given the availability of a public covid-related survival dataset which we wanted to further explore, we aimed to outline several basic survival analysis concepts in a non-mathematical manner and then apply those concepts to the aforementioned dataset, while trying to make use of the interactivity elements R Shiny provides.
+ I created this project as my previous personal website to improve my R Shiny and HTML programming skills. Given that Shiny applications are more dynamic and are made for visualizing and making statistical analyses more interactive, I decided to retire this web-application for this current website.
 
 

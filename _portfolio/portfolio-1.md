@@ -1,17 +1,17 @@
 ---
-title: "Pediatric Traumatic Brain Injury (TBI) Mortality Prediction Web-Application"
-excerpt: "This pediatric TBI prediction web-application is part of my honors thesis on imbalanced outcome pediatric patient mortality classification, where the best-performing C5.0 decision tree classifier trained on Synthetic Minority Over-sampling TEchnique (SMOTE) subsampled data is the predictive model implemented here. Potential applications of such a web-application, as recommended to us by clinicians, could be when either diagnosis by a clinician is not possible or as an indirect clinicians aid to give an approximate survival estimate for parents or guardians. Simplicity, speed, and portability were the main priorities considered when developing the application."
+title: "An R Shiny App to Introduce and Apply Basic Surival Analysis Ideas"
+excerpt: "This is a project I am currently working on with Tiffany Hsieh and Bowen Chen at Hopkins to introduce and apply survival analysis ideas in the format of a web-application. Given the availability of a public covid-related survival dataset which we wanted to further explore, we aimed to outline several basic survival analysis concepts in a non-mathematical manner and then apply those concepts to the aforementioned dataset, while trying to make use of the interactivity elements R Shiny provides."
 collection: portfolio
 ---
 <br />
-[<i class="fa fa-fw fa-link" aria-hidden="true"></i>](https://franklinfuchs.shinyapps.io/Pediatric-TBI-Prediction-Application/) Deployed Web-Application
+[<i class="fa fa-fw fa-link" aria-hidden="true"></i>](https://franklinf.shinyapps.io/Survival-Analysis-Project/) Deployed Web-Application
 
-[<i class="fa fa-fw fa-code" aria-hidden="true"></i>](https://github.com/fuchsfranklin/Pediatric-TBI-Prediction-Application) GitHub Code Repository
+[<i class="fa fa-fw fa-code" aria-hidden="true"></i>](https://github.com/fuchsfranklin/Survival-Analysis-Project) GitHub Code Repository
 
 ## Project Overview
 
 ###### _(R and Shiny-based Programming Project)_
 
-This pediatric TBI prediction web-application is part of my honors thesis on imbalanced outcome pediatric patient mortality classification, where the best-performing C5.0 decision tree classifier trained on Synthetic Minority Over-sampling TEchnique (SMOTE) subsampled data is the predictive model implemented here. Potential applications of such a web-application, as recommended to us by clinicians, could be when either diagnosis by a clinician is not possible or as an indirect clinicians aid to give an approximate survival estimate for parents or guardians. Simplicity, speed, and portability were the main priorities considered when developing the application.
+ This is a project I am currently working on with Tiffany Hsieh and Bowen Chen at Hopkins to introduce and apply survival analysis ideas in the format of a web-application. Given the availability of a public covid-related survival dataset which we wanted to further explore, we aimed to outline several basic survival analysis concepts in a non-mathematical manner and then apply those concepts to the aforementioned dataset, while trying to make use of the interactivity elements R Shiny provides.
 
 
