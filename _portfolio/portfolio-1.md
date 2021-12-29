@@ -1,6 +1,6 @@
 ---
-title: "An R Shiny App to Introduce and Apply Basic Surival Analysis Ideas"
-excerpt: "This is a project I am currently working on with Tiffany Hsieh and Bowen Chen at Hopkins to introduce and apply survival analysis ideas in the format of a web-application. Given a publicly available covid-related survival dataset on GitHub that we wanted to further explore, we aimed to outline several basic survival analysis concepts in a non-mathematical manner and then apply those concepts to the aforementioned dataset while making use of the interactivity elements R Shiny provides."
+title: "An R Shiny App to Introduce and Apply Survival Analysis Ideas"
+excerpt: "Together with Tiffany Hsieh and Bowen Chen, I am working on this R Shiny web-application to introduce ideas in survival analysis in an accessible manner. Given a publicly available moderna vacchine covid-survival dataset on GitHub which we wanted to further explore, we outline several basic survival analysis concepts in a non-mathematical manner and then apply those concepts to the aforementioned dataset to provide intuition of concepts from both theoretical and applied perspectives."
 collection: portfolio
 ---
 <br />
@@ -12,6 +12,7 @@ collection: portfolio
 
 ###### _(R and Shiny-based Programming Project)_
 
-This is a project I am currently working on with Tiffany Hsieh and Bowen Chen at Hopkins to introduce and apply survival analysis ideas in the format of a web-application. Given a publicly available covid-related survival dataset on GitHub that we wanted to further explore, we aimed to outline several basic survival analysis concepts in a non-mathematical manner and then apply those concepts to the aforementioned dataset while making use of the interactivity elements R Shiny provides.
+Together with Tiffany Hsieh and Bowen Chen, I am working on this R Shiny web-application to introduce ideas in survival analysis in an accessible manner. Given a publicly available moderna vacchine covid-survival dataset on GitHub which we wanted to further explore, we outline several basic survival analysis concepts in a non-mathematical manner and then apply those concepts to the aforementioned dataset to provide intuition of concepts from both theoretical and applied perspectives.
+
 
 
