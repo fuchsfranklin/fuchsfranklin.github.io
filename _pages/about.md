@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I am attending Johns Hopkins University for a master's in biostatistics. With professor [Stephanie Hicks](https://www.stephaniehicks.com/) as my advisor, I am working on developing R/Shiny apps along with Python modules for image processing of spatial transcriptomics data. This summer I will be working at Pfizer under Dr. Liang Xue and the Simulation and Modeling Science Group.
+Currently, I am attending Johns Hopkins University for a master's in biostatistics. With professor [Stephanie Hicks](https://www.stephaniehicks.com/) as my advisor, I am working on developing R/Shiny apps along with Python modules for image processing of spatial transcriptomics data. This summer I will be working at the Pfizer Simulation and Modeling Science Group under Dr. Liang Xue.
 
 My Interests
 ======
