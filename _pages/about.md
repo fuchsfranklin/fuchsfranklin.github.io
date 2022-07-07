@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I am attending Johns Hopkins University for a master's in biostatistics. This summer, I am working at the Pfizer Computational Sciences Group under Dr. Liang Xue.
+Currently, I am attending Johns Hopkins University for a master's in biostatistics. This summer, I am working in Data Science at the Pfizer Computational Sciences Group under Dr. Liang Xue.
 
 My Interests
 ======
