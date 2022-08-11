@@ -70,6 +70,8 @@ Teaching and Tutoring
 
 Posters, Presentations, and Projects
 ------
+* __"Proteomics Input and Output Tool (ProtIOT)"__
+  * Pfizer Machine Learning and Computational Science (MLCS) group talk regarding functionality and usage for the developed database access/querying and pipeline tools (2022)
 * __"Standardized Proteomics Pipeline Software Development"__
   * Pfizer Simulation and Modeling Science (SMS) and Molecular Informatics (MI) group demonstrations regarding functionality and usage for the developed pipeline tools (2021)
 * __"A Low-Cost Arduino-Based Wearable for Circadian Rhythm Measurement and Light Exposure Classification"__
