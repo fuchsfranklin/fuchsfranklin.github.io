@@ -26,7 +26,14 @@ Skills and Interests
 
 Work
 ------
-* __Pfizer Simulation and Modeling Science (SMS) Group – Dr. Liang Xue__ \- _Software Development Intern_ (Jun. 2021 - Aug. 2021)
+
+* __Pfizer Machine Learning and Computational Science Group – Dr. Liang Xue__ \- _Data Scientist Intern_ (Jun. 2022 - Aug. 2022)
+	* Cooperated with Chemical Biology Group scientists to incrementally develop a MySQL database to store and query experiment, protein, and meta-data, thus also providing a deliverable that functioned as a proof of concept for other Pfizer groups with lacking proteomics data infrastructure.
+	* Programmed an accessible R Shiny-based UI to set up experiments/rawfiles/samplesheets, load in raw/processed data, modify data with excel-like interactivity, create a drag-and-drop tool to map omics files and data, store mapped data in a SQL database, and query stored data based on user needs.
+    * Wrote markdown-based usage instructions and recorded tutorial videos to guide future database and UI users.
+    * Created and tested scripts/methods to extend the Pfizer R Statistical Tool for Quantitative Mass Spectrometry-Based Proteomics (MSstats) package to process and standardize data from multiple proteomics data sources.  
+
+* __Pfizer Simulation and Modeling Science Group – Dr. Liang Xue__ \- _Software Development Intern_ (Jun. 2021 - Aug. 2021)
 	* Implemented an automated data pipeline in R, providing standardized computational proteomics cloud task execution and management capabilities.
 	* Optimized the functionality and speed of core pipeline elements, using API’s for virtual private cloud interfacing and MySQL database task logging.
     * Developed an R Shiny-based General User Interface, using reactivity, datatable, and dashboard layout elements to provide user-friendly access to pipeline tools.
@@ -48,7 +55,7 @@ Work
 	* Conducted R-based frequentist and bayesian regression analyses to assess the difference of the new UNR medical school curriculum.
 	* Performed data cleaning, numerical/visual exploratory data analysis, and assumption checking on medical school datasets in R.
 
-* __Swiss Armed Forces Nuclear, Biological, Chemical (NBC) Defense School__ \- _Biology Laboratory Specialist_ (Jul. 2016 - Dec. 2016)
+* __Swiss Armed Forces Nuclear, Biological, Chemical Defense School__ \- _Biology Laboratory Specialist_ (Jul. 2016 - Dec. 2016)
 	* Identified microbiological hazards using multiple bacterial identification approaches.
 	* Performed bacterial contamination analyses in a Biosafety Level 3 laboratory.
 	* Worked as team coordinator to summarize, deliver, and present daily analysis results in an clear, concise, and timely manner. 
