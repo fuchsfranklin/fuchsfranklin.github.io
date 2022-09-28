@@ -64,6 +64,10 @@ Work
 Teaching and Tutoring
 ------
 
+* __JHU Bloomberg School of Public Health__ \- _Teaching Assistant_ (Jan. 2020 - May 2020)
+	* Teaching multiple discussion sections to help guide pre-medical and public health undergraduate students through a weekly problem set on topics related to the fundamentals of applied statistics and epidemiology.
+	* Grading quizzes and discussion problem sets.
+
 * __UNR Honors College__ \- _Honors Peer Coach and Teaching Assistant_ (Aug. 2019 - May. 2021)
     * Taught, held office hours, and graded for an introductory honors course on academic integrity, undergraduate research, and professional networking.
 	* Provided individual academic and professional mentorship and guidance to cohorts of 5-8 honors students in computer science and mathematics.
