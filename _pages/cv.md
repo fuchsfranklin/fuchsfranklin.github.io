@@ -34,7 +34,7 @@ Work
     * Created and tested scripts/methods to extend the Pfizer R Statistical Tool for Quantitative Mass Spectrometry-Based Proteomics (MSstats) package to process and standardize data from multiple proteomics data sources.  
 
 * __Pfizer Simulation and Modeling Science Group – Dr. Liang Xue__ \- _Software Development Intern_ (Jun. 2021 - Aug. 2021)
-	* Implemented an automated data pipeline in R, providing standardized computational proteomics cloud task execution and management capabilities.
+	* Implemented an automated data pipeline in R, providing standardized computational proteomics cloud (SevenBridges) task execution and management capabilities.
 	* Optimized the functionality and speed of core pipeline elements, using API’s for virtual private cloud interfacing and MySQL database task logging.
     * Developed an R Shiny-based General User Interface, using reactivity, datatable, and dashboard layout elements to provide user-friendly access to pipeline tools.
     * Wrote Markdown-based documentation to provide software feature and usage instructions.
