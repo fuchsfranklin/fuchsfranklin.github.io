@@ -64,7 +64,7 @@ Work
 Teaching and Tutoring
 ------
 
-* __JHU Bloomberg School of Public Health__ \- _Teaching Assistant_ (Jan. 2020 - May 2020)
+* __JHU Bloomberg School of Public Health__ \- _Teaching Assistant_ (Aug. 2022 - Present)
 	* Teaching multiple discussion sections to help guide pre-medical and public health undergraduate students through a weekly problem set on topics related to the fundamentals of applied statistics and epidemiology.
 	* Grading quizzes and discussion problem sets.
 
