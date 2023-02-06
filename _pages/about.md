@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I am attending Johns Hopkins University for a master's in biostatistics with Professor [Stephanie Hicks](https://www.stephaniehicks.com/) as my advisor. This summer, I am working in data science at the Pfizer Computational Sciences Group under [Dr. Liang Xue](https://www.linkedin.com/in/liang-xue-3a7b9722).
+Currently, I am attending Johns Hopkins University for a master's in biostatistics with Professor Stephanie Hicks as my academic advisor. This summer, I am working in data science at the Pfizer Computational Sciences Group under [Dr. Liang Xue](https://www.linkedin.com/in/liang-xue-3a7b9722).
 
 My Interests
 ======
