@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I am attending Johns Hopkins University for a master's in biostatistics, where I am working on content and package development for [DataTrail](https://www.datatrail.org/) under Professor Michael Roseblum and Candace Savonen. This summer, I will start working at the Pfizer Digital Group.
+Currently, I am attending Johns Hopkins University for a master's in biostatistics, where I am working on content and package development for [DataTrail](https://www.datatrail.org/) under Professor Michael Rosenblum and Candace Savonen. This summer, I will start working at the Pfizer Digital Group.
 
 My Interests
 ======
