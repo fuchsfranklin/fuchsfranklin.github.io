@@ -12,4 +12,4 @@ Currently, I am attending Johns Hopkins University for a master's in biostatisti
 
 My Interests
 ======
-The areas that I am most experienced in are biomedical data science and data software development, where I am specifically interested in web-application development, high-performance computing, and interactive data visualization. In addition to statistics, I enjoy learning about concepts in computational biology. In my free time, I like to exercise and practice mindfulness meditation.
+The areas that I am most experienced in are biomedical data science and data software development, where I am specifically interested in web-application development, high-performance computing, and interactive data visualization. In addition to statistics, I enjoy learning about concepts in psychology and mental health. In my free time, I like to exercise and practice mindfulness meditation.
