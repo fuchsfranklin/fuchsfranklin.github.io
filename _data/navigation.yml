@@ -1,8 +1,4 @@
 # main links links
 main:    
-
-  - title: "Project Portfolio"
-    url: /portfolio/
-    
   - title: "Expanded Resume/CV"
     url: /cv/ 
