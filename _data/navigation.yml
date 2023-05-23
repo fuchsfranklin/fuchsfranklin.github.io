@@ -2,3 +2,5 @@
 main:    
   - title: "Expanded Resume/CV"
     url: /cv/ 
+    - title: "Projects"
+    url: /portfolio/ 
