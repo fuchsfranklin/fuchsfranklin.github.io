@@ -25,9 +25,9 @@ development of an R package, offering a suite of functions and tools for data
 manipulation and visualization. This package, designed to be user-friendly and
 accessible, is a valuable resource for both students and teachers.
 The development of BaltimoreTrails is a significant contribution to the DataTrail
-initiative, enhancing its capabilities and expanding its reach [21]. However, challenges,
+initiative, enhancing its capabilities and expanding its reach. However, challenges,
 particularly in integrating the Baltimore datasets with the learnR chapter tutorials
-in the Shiny Web-App [26], will be discussed in detail in this work.
+in the Shiny Web-App, will be discussed in detail in this work.
 The subsequent sections will provide a detailed overview of the DataTrail initiative,
 the development of the R package and Shiny Web-App, and the integration of
 Baltimore datasets. We will also discuss the challenges encountered during this
