@@ -1,17 +1,17 @@
 ---
-title: "Shiny-Based Personal Project Portfolio Web-Application"
-excerpt: "I created this project as my previous personal website to improve my R Shiny and HTML programming skills. Given that Shiny applications are more dynamic and are made for visualizing and making statistical analyses more interactive, I decided to retire this web-application for this current website."
+title: "Comparing Variable Selection Techniques on Simulated Data"
+excerpt: "The aims of this project are to simulate multivariate data from three underlying linear models with varying degrees of correlation among predictors and then observing how effective different variable selection methods perform on each dataset by fitting a linear regression model with the selected variables. Thus, we first simulate 50 datasets for every underlying model from section 7 of the Paper \"Regression Shrinkage and Selection via the Lasso\" by Tibshirani (1996). We then fit the models according several variable selection and shrinkage methods and consider Akaike Information Criterion (AIC), Bayesian Information Criterion (BIC), and Adjusted R-Squared Value as performance metrics."
 collection: portfolio
 ---
 <br />
-[<i class="fa fa-fw fa-link" aria-hidden="true"></i>](https://franklinfuchs.shinyapps.io/Personal-Website/) Deployed Web-Application
+[<i class="fa fa-fw fa-link" aria-hidden="true"></i>](https://rpubs.com/franklinfuchs/Regularization-Project) Deployed Programming Project
 
-[<i class="fa fa-fw fa-code" aria-hidden="true"></i>](https://github.com/fuchsfranklin/Personal-Website) GitHub Code Repository
+[<i class="fa fa-fw fa-code" aria-hidden="true"></i>](https://github.com/fuchsfranklin/Regularization-Project) GitHub Code Repository
 
 ## Project Overview
 
-###### _(R and Shiny-based Programming Project)_
+###### _(R and Markdown-based Programming Project)_
 
- I created this project as my previous personal website to improve my R Shiny and HTML programming skills. Given that Shiny applications are more dynamic and are made for visualizing and making statistical analyses more interactive, I decided to retire this web-application for this current website.
+The aims of this project are to simulate multivariate data from three underlying linear models with varying degrees of correlation among predictors and then observing how effective different variable selection methods perform on each dataset by fitting a linear regression model with the selected variables. Thus, we first simulate 50 datasets for every underlying model from section 7 of the Paper \"Regression Shrinkage and Selection via the Lasso\" by Tibshirani (1996). We then fit the models according several variable selection and shrinkage methods and consider Akaike Information Criterion (AIC), Bayesian Information Criterion (BIC), and Adjusted R-Squared Value as performance metrics.
 
 
