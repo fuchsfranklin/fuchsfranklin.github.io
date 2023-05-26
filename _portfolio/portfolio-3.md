@@ -1,17 +1,17 @@
 ---
-title: "An Intuitive Introduction to Metropolis-Hastings Algorithm Sampling and Diagnostics"
-excerpt: "The first aim of this stochastic models and simulation project is to understand the metropolis-hastings algorithm and several markov-chain-monte-carlo diagnostic methods at a more intuitive and visual level through plots that are both animated and interactive. My second aim is to present my first aim in a cohesive and compact manner to those unfamiliar with MCMC and the R-Programming Language. It is important to mention that the time-dependent nature of a markov chain and the amount of visually appealing parameters are optimal for creating animated illustrations."
+title: "Pediatric Traumatic Brain Injury (TBI) Mortality Prediction Web-Application"
+excerpt: "This pediatric TBI prediction web-application is part of my honors thesis on imbalanced outcome pediatric patient mortality classification, where the best-performing C5.0 decision tree classifier trained on Synthetic Minority Over-sampling TEchnique (SMOTE) subsampled data is the predictive model implemented here. Potential applications of such a web-application, as recommended to us by clinicians, could be when either diagnosis by a clinician is not possible or as an indirect clinicians aid to give an approximate survival estimate for parents or guardians. Simplicity, speed, and portability were the main priorities considered when developing the application."
 collection: portfolio
 ---
 <br />
-[<i class="fa fa-fw fa-link" aria-hidden="true"></i>](https://franklinfuchs.shinyapps.io/MCMC_Visual_Project/) Deployed Web-Application
+[<i class="fa fa-fw fa-link" aria-hidden="true"></i>](https://franklinfuchs.shinyapps.io/Pediatric-TBI-Prediction-Application/) Deployed Web-Application
 
-[<i class="fa fa-fw fa-code" aria-hidden="true"></i>](https://github.com/fuchsfranklin/MCMC-Visualization-Project) GitHub Code Repository
+[<i class="fa fa-fw fa-code" aria-hidden="true"></i>](https://github.com/fuchsfranklin/Pediatric-TBI-Prediction-Application) GitHub Code Repository
 
 ## Project Overview
 
 ###### _(R and Shiny-based Programming Project)_
 
-The first aim of this stochastic models and simulation project is to understand the metropolis-hastings algorithm and several markov-chain-monte-carlo diagnostic methods at a more intuitive and visual level through plots that are both animated and interactive. My second aim is to present my first aim in a cohesive and compact manner to those unfamiliar with MCMC and the R-Programming Language. It is important to mention that the time-dependent nature of a markov chain and the amount of visually appealing parameters are optimal for creating animated illustrations.
+This pediatric TBI prediction web-application is part of my honors thesis on imbalanced outcome pediatric patient mortality classification, where the best-performing C5.0 decision tree classifier trained on Synthetic Minority Over-sampling TEchnique (SMOTE) subsampled data is the predictive model implemented here. Potential applications of such a web-application, as recommended to us by clinicians, could be when either diagnosis by a clinician is not possible or as an indirect clinicians aid to give an approximate survival estimate for parents or guardians. Simplicity, speed, and portability were the main priorities considered when developing the application.
 
 

@@ -1,17 +1,17 @@
 ---
-title: "Comparing Variable Selection Techniques on Simulated Data"
-excerpt: "The aims of this project are to simulate multivariate data from three underlying linear models with varying degrees of correlation among predictors and then observing how effective different variable selection methods perform on each dataset by fitting a linear regression model with the selected variables. Thus, we first simulate 50 datasets for every underlying model from section 7 of the Paper \"Regression Shrinkage and Selection via the Lasso\" by Tibshirani (1996). We then fit the models according several variable selection and shrinkage methods and consider Akaike Information Criterion (AIC), Bayesian Information Criterion (BIC), and Adjusted R-Squared Value as performance metrics."
+title: "An Intuitive Introduction to Metropolis-Hastings Algorithm Sampling and Diagnostics"
+excerpt: "The first aim of this stochastic models and simulation project is to understand the metropolis-hastings algorithm and several markov-chain-monte-carlo diagnostic methods at a more intuitive and visual level through plots that are both animated and interactive. My second aim is to present my first aim in a cohesive and compact manner to those unfamiliar with MCMC and the R-Programming Language. It is important to mention that the time-dependent nature of a markov chain and the amount of visually appealing parameters are optimal for creating animated illustrations."
 collection: portfolio
 ---
 <br />
-[<i class="fa fa-fw fa-link" aria-hidden="true"></i>](https://rpubs.com/franklinfuchs/Regularization-Project) Deployed Programming Project
+[<i class="fa fa-fw fa-link" aria-hidden="true"></i>](https://franklinfuchs.shinyapps.io/MCMC_Visual_Project/) Deployed Web-Application
 
-[<i class="fa fa-fw fa-code" aria-hidden="true"></i>](https://github.com/fuchsfranklin/Regularization-Project) GitHub Code Repository
+[<i class="fa fa-fw fa-code" aria-hidden="true"></i>](https://github.com/fuchsfranklin/MCMC-Visualization-Project) GitHub Code Repository
 
 ## Project Overview
 
-###### _(R and Markdown-based Programming Project)_
+###### _(R and Shiny-based Programming Project)_
 
-The aims of this project are to simulate multivariate data from three underlying linear models with varying degrees of correlation among predictors and then observing how effective different variable selection methods perform on each dataset by fitting a linear regression model with the selected variables. Thus, we first simulate 50 datasets for every underlying model from section 7 of the Paper \"Regression Shrinkage and Selection via the Lasso\" by Tibshirani (1996). We then fit the models according several variable selection and shrinkage methods and consider Akaike Information Criterion (AIC), Bayesian Information Criterion (BIC), and Adjusted R-Squared Value as performance metrics.
+The first aim of this stochastic models and simulation project is to understand the metropolis-hastings algorithm and several markov-chain-monte-carlo diagnostic methods at a more intuitive and visual level through plots that are both animated and interactive. My second aim is to present my first aim in a cohesive and compact manner to those unfamiliar with MCMC and the R-Programming Language. It is important to mention that the time-dependent nature of a markov chain and the amount of visually appealing parameters are optimal for creating animated illustrations.
 
 
