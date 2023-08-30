@@ -66,7 +66,7 @@ Work
 Teaching and Tutoring
 ------
 
-* __JHU Bloomberg School of Public Health__ \- _Teaching Assistant_ (Aug. 2022 - Present)
+* __JHU Bloomberg School of Public Health__ \- _Teaching Assistant_ (Aug. 2022 - May. 2023)
 	* Teaching multiple discussion sections to help guide pre-medical and public health undergraduate students through a weekly problem set on topics related to the fundamentals of applied statistics and epidemiology.
 	* Grading quizzes and discussion problem sets.
 
@@ -83,6 +83,8 @@ Teaching and Tutoring
 
 Posters, Presentations, and Projects
 ------
+* __"Enhancing DataTrail Data Science Education: The BaltimoreTrails R Package and Dashboard"__
+  *  ScM Thesis Web-App used and presented in the context of the DataTrail project [DataTrail](https://www.datatrail.org/) (2023)
 * __"Proteomics Input and Output Tool (ProtIOT)"__
   * Pfizer Machine Learning and Computational Science (MLCS) group talk regarding functionality and usage for the developed database access/querying and pipeline tools (2022)
 * __"Standardized Proteomics Pipeline Software Development"__
