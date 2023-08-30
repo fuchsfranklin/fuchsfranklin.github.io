@@ -27,7 +27,7 @@ Skills and Interests
 Work
 ------
 
-* __Pfizer Digital – Randy Duncan/Tasha Caballero__ \- _Software/Solution Engineer (DRP Associate)_ (Jun. 2023 - Present)
+* __Pfizer Digital – Randy Duncan and Tasha Caballero__ \- _Software/Solution Engineer - DRP Associate_ (Jun. 2023 - Present)
 
 * __Pfizer Machine Learning and Computational Science Group – Dr. Liang Xue__ \- _Data Scientist Intern_ (Jun. 2022 - Aug. 2022)
 	* Cooperated with Chemical Biology Group scientists to incrementally develop a MySQL database to store and query experiment, protein, and meta-data, thus also providing a deliverable that functioned as a proof of concept for other Pfizer groups with lacking proteomics data infrastructure.
@@ -84,7 +84,7 @@ Teaching and Tutoring
 Posters, Presentations, and Projects
 ------
 * __"Enhancing DataTrail Data Science Education: The BaltimoreTrails R Package and Dashboard"__
-  *  ScM Thesis Web-App used and presented in the context of the DataTrail project [DataTrail](https://www.datatrail.org/) (2023)
+  *  ScM Thesis Web-App used and presented in the context of the [DataTrail](https://www.datatrail.org/) project (2023)
 * __"Proteomics Input and Output Tool (ProtIOT)"__
   * Pfizer Machine Learning and Computational Science (MLCS) group talk regarding functionality and usage for the developed database access/querying and pipeline tools (2022)
 * __"Standardized Proteomics Pipeline Software Development"__
