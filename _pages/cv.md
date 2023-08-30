@@ -21,11 +21,13 @@ Education
 Skills and Interests
 ------
 * __Programming Languages__: R, Python, SQL, C++, C, MATLAB
-* __Software__: Docker, Singularity, SLURM, Markdown, Shiny, LaTeX, Linux Shell, Office Suite, Git, and GitHub
+* __Software__: Amazon AWS, Dataiku, Docker, Singularity, SLURM, Markdown, Shiny, LaTeX, Linux Shell, Office Suite, Git, and GitHub
 * __Modeling and Computing__: Classification, Regression, Predictive Analytics, Feature Engineering, Variable Selection, Exploratory Data Analysis, High-Performance/Cluster Computing, Containerization, Database Design and Implementation, Web-Application Development
 
 Work
 ------
+
+* __Pfizer Digital – Tasha Caballero/Randy Duncan__ \- _Software/Solution Engineer (DRP Associate)_ (Jun. 2023 - Present)
 
 * __Pfizer Machine Learning and Computational Science Group – Dr. Liang Xue__ \- _Data Scientist Intern_ (Jun. 2022 - Aug. 2022)
 	* Cooperated with Chemical Biology Group scientists to incrementally develop a MySQL database to store and query experiment, protein, and meta-data, thus also providing a deliverable that functioned as a proof of concept for other Pfizer groups with lacking proteomics data infrastructure.
