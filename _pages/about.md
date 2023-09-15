@@ -12,4 +12,4 @@ I am currently working at Pfizer in NYC as a Software/Solution Engineer and DRP 
 
 My Interests
 ======
-The areas that I am most experienced in are biomedical data science and data software development, where I am specifically interested in prototyping data web-applications, cloud computing, and interactive data visualization. In addition to statistics, I enjoy learning about concepts in psychology and mental health. In my free time, I like to exercise and practice mindfulness meditation.
+The areas that I am most experienced in are biomedical data science and data software development, where I am specifically interested in cloud computing, prototyping data web-applications, and interactive data visualization. In addition to programming, I enjoy learning about concepts in psychology, especially behavioural science and mental health. In my free time, I like to exercise and practice mindfulness meditation.
