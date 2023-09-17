@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently working at Pfizer in NYC as a Software/Solution Engineer and DRP Associate. At the moment, my work focuses on helping with projects in the Enterprise Architecture, Data & Analytics, and AI/ML Team under Randy Duncan.
+I am currently working at Pfizer in NYC as a Software/Solution Engineer and DRP Associate. At the moment, my work focuses on helping with projects in the Enterprise Architecture, Data & Analytics, and AI/ML Team.
 
 My Interests
 ======
