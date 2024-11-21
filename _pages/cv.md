@@ -14,6 +14,10 @@ Expanded Resume/CV
 
 Education
 ------
+* __Northeastern University__ \- _Industry Ph.D._ (2024 - Present)
+	* Pfizer Advisor: [Ajit Jadhav](https://scholar.google.com/citations?user=-4XGT3IAAAAJ&hl=en)
+	* NEU Advisor: [Professor Melanie Tory](https://roux.northeastern.edu/people/melanie-tory/)
+
 * __Johns Hopkins University__ \- _ScM in Biostatistics_ (2021 - 2023)
 	
 * __University of Nevada, Reno__ \- _Honors BS in Mathematics (Statistics Emphasis), Minor in Big Data_ (2017 - 2021)
@@ -27,7 +31,9 @@ Skills and Interests
 Work
 ------
 
-* __Pfizer Digital – Randy Duncan and Tasha Caballero__ \- _Software/Solution Engineer - DRP Associate_ (Jun. 2023 - Present)
+* __Pfizer Digital – Ajit Jadhav__ \- _Data Scientist - DRP Associate_ (Jun. 2024 - Present)
+
+* __Pfizer Digital – Randy Duncan and Leonidas Petridis__ \- _Software/Solution Engineer - DRP Associate_ (Jun. 2023 - Jun. 2024)
 
 * __Pfizer Machine Learning and Computational Science Group – Dr. Liang Xue__ \- _Data Scientist Intern_ (Jun. 2022 - Aug. 2022)
 	* Cooperated with Chemical Biology Group scientists to incrementally develop a MySQL database to store and query experiment, protein, and meta-data, thus also providing a deliverable that functioned as a proof of concept for other Pfizer groups with lacking proteomics data infrastructure.
