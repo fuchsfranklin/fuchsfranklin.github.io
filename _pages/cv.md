@@ -31,9 +31,9 @@ Skills and Interests
 Work
 ------
 
-* __Pfizer Digital – Ajit Jadhav__ \- _Data Scientist - DRP Associate_ (Jun. 2024 - Present)
+* __Pfizer Digital Client Partners – Ajit Jadhav__ \- _Data Scientist - DRP Associate_ (Jun. 2024 - Present)
 
-* __Pfizer Digital – Randy Duncan and Leonidas Petridis__ \- _Software/Solution Engineer - DRP Associate_ (Jun. 2023 - Jun. 2024)
+* __Pfizer AI/ML/Analytics Enterprise Architecture and L&D Anlytics  – Randy Duncan and Leonidas Petridis__ \- _Software/Solution Engineer - DRP Associate_ (Jun. 2023 - Jun. 2024)
 
 * __Pfizer Machine Learning and Computational Science Group – Dr. Liang Xue__ \- _Data Scientist Intern_ (Jun. 2022 - Aug. 2022)
 	* Cooperated with Chemical Biology Group scientists to incrementally develop a MySQL database to store and query experiment, protein, and meta-data, thus also providing a deliverable that functioned as a proof of concept for other Pfizer groups with lacking proteomics data infrastructure.
