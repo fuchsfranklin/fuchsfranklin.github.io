@@ -96,6 +96,8 @@ Teaching and Tutoring
 
 Posters, Presentations, and Projects
 ------
+* __"Association of serum adiponectin and leptin levels with inner retinal thickness among individuals with or without elevated HbA1c"__
+  *  Co-Authored Publication in [Scientific Reports](https://www.nature.com/articles/s41598-025-93562-9) (2025)
 * __"Enhancing DataTrail Data Science Education: The BaltimoreTrails R Package and Dashboard"__
   *  ScM Thesis Web-App used and presented in the context of the [DataTrail](https://www.datatrail.org/) project (2023)
 * __"Proteomics Input and Output Tool (ProtIOT)"__
