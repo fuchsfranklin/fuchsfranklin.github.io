@@ -30,7 +30,6 @@ Skills and Interests
 
 Work
 ------
-
 * __Pfizer Digital Client Partners – Ajit Jadhav__ \- _Data Scientist - DRP Associate_ (Jun. 2024 - Present)
   * Programming static and time-dependent forced ranking systems for target product profile support using various Multi-Objective Optimization Algorithms, including Evolutionary Algorithms, Reinforcement Learning, and Robust Portfolio Optimization in Python and R, also supporting expanding existing indications of Pfizer’s current portfolio drugs under competing drug efficacy, safety, viability, and stakeholder preference functions.
   * Designing interactive D3, Python, and R-based visualizations to highlight the unmet needs areas for various demographic patient groups for diseases in Pfizer’s drug portfolio, using AWS for visualization deployments/usage data collection and custom HTML/CSS for user interface styling.
@@ -100,7 +99,6 @@ Posters, Presentations, and Projects
   
 Teaching and Tutoring
 ------
-
 * __JHU Bloomberg School of Public Health__ \- _Teaching Assistant_ (Aug. 2022 - May. 2023)
 	* Teaching multiple discussion sections to help guide pre-medical and public health undergraduate students through a weekly problem set on topics related to the fundamentals of applied statistics and epidemiology.
 	* Grading quizzes and discussion problem sets.
