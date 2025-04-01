@@ -75,25 +75,6 @@ Work
 	* Performed bacterial contamination analyses in a Biosafety Level 3 laboratory.
 	* Worked as team coordinator to summarize, deliver, and present daily analysis results in an clear, concise, and timely manner. 
   
-  
-Teaching and Tutoring
-------
-
-* __JHU Bloomberg School of Public Health__ \- _Teaching Assistant_ (Aug. 2022 - May. 2023)
-	* Teaching multiple discussion sections to help guide pre-medical and public health undergraduate students through a weekly problem set on topics related to the fundamentals of applied statistics and epidemiology.
-	* Grading quizzes and discussion problem sets.
-
-* __UNR Honors College__ \- _Honors Peer Coach and Teaching Assistant_ (Aug. 2019 - May. 2021)
-    * Taught, held office hours, and graded for an introductory honors course on academic integrity, undergraduate research, and professional networking.
-	* Provided individual academic and professional mentorship and guidance to cohorts of 5-8 honors students in computer science and mathematics.
-  
-* __UNR Department of Mathematics__ \- _Statistics Grader_ (Jan. 2020 - May 2020)
-	* Graded homework, quizzes, and exams related to the statistical theory and R-implementation of linear models.  
-
-* __UNR Department of Computer Science__ \- _Computer Science Teaching Fellow_ (Jan. 2018 - Apr. 2019)
-	* Taught, tutored, and graded for the C language programming course.
-	* Held weekly reviews and workshops on best practices to optimize and format C code.
-
 Posters, Presentations, and Projects
 ------
 * __"Association of serum adiponectin and leptin levels with inner retinal thickness among individuals with or without elevated HbA1c"__
@@ -116,6 +97,24 @@ Posters, Presentations, and Projects
   * Research poster presented at the UNR Fall 2019 Statistical Computing Capstone Competition (2019)
 * __"Comparing Regularization Techniques on Simulated Data"__
   * Personal (R-based) Project (2019)
+  
+Teaching and Tutoring
+------
+
+* __JHU Bloomberg School of Public Health__ \- _Teaching Assistant_ (Aug. 2022 - May. 2023)
+	* Teaching multiple discussion sections to help guide pre-medical and public health undergraduate students through a weekly problem set on topics related to the fundamentals of applied statistics and epidemiology.
+	* Grading quizzes and discussion problem sets.
+
+* __UNR Honors College__ \- _Honors Peer Coach and Teaching Assistant_ (Aug. 2019 - May. 2021)
+    * Taught, held office hours, and graded for an introductory honors course on academic integrity, undergraduate research, and professional networking.
+	* Provided individual academic and professional mentorship and guidance to cohorts of 5-8 honors students in computer science and mathematics.
+  
+* __UNR Department of Mathematics__ \- _Statistics Grader_ (Jan. 2020 - May 2020)
+	* Graded homework, quizzes, and exams related to the statistical theory and R-implementation of linear models.  
+
+* __UNR Department of Computer Science__ \- _Computer Science Teaching Fellow_ (Jan. 2018 - Apr. 2019)
+	* Taught, tutored, and graded for the C language programming course.
+	* Held weekly reviews and workshops on best practices to optimize and format C code.
   
 Awards
 ------
