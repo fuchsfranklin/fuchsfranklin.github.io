@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently working at Pfizer in NYC as a Data Scientist in Digital Client Partners under [Ajit Jadhav](https://scholar.google.com/citations?user=-4XGT3IAAAAJ&hl=en) where my work focuses on generative, operations research, and traditional statistical modeling. Under the guidance of Professor [Melanie Tory](https://roux.northeastern.edu/people/melanie-tory/) at Northeastern University and [Stephen Watt](https://www.linkedin.com/in/stephen-watt-88b5064/) at the Pfizer Global Medical Impact Assessment Group, I am doing my industry PhD with a focus on problems at the intersection of decision science, data visualization, AI, and biomedical data science. 
+I am currently working at Pfizer in NYC as a Data Scientist in Digital Client Partners under [Ajit Jadhav](https://scholar.google.com/citations?user=-4XGT3IAAAAJ&hl=en) where my work focuses on generative, operations research, and traditional statistical modeling. Under the guidance of Professor [Melanie Tory](https://roux.northeastern.edu/people/melanie-tory/) at Northeastern University and [Brett South](https://www.linkedin.com/in/brett-south-phd-famia-50242349) at the Pfizer Global Medical Impact Assessment Group, I am doing my industry PhD with a focus on problems at the intersection of decision science, data visualization, AI, and biomedical data science. 
 
 My Interests
 ======

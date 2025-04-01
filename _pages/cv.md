@@ -15,7 +15,7 @@ Expanded Resume/CV
 Education
 ------
 * __Northeastern University__ \- _Industry Ph.D._ (2024 - Present)
-	* Pfizer Advisors: [Ajit Jadhav](https://scholar.google.com/citations?user=-4XGT3IAAAAJ&hl=en) and [Stephen Watt](https://www.linkedin.com/in/stephen-watt-88b5064/)
+	* Pfizer Advisors:[Brett South](https://www.linkedin.com/in/brett-south-phd-famia-50242349) and [Ajit Jadhav](https://scholar.google.com/citations?user=-4XGT3IAAAAJ&hl=en)
 	* NEU Advisor: [Professor Melanie Tory](https://roux.northeastern.edu/people/melanie-tory/)
 
 * __Johns Hopkins University__ \- _ScM in Biostatistics_ (2021 - 2023)
