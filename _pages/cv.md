@@ -14,8 +14,8 @@ Expanded Resume/CV
 
 Education
 ------
-* __Northeastern University__ \- _Industry Ph.D._ (2024 - Present)
-	* Pfizer Advisors:[Brett South](https://www.linkedin.com/in/brett-south-phd-famia-50242349) and [Ajit Jadhav](https://scholar.google.com/citations?user=-4XGT3IAAAAJ&hl=en)
+* __Northeastern University__ \- _Industry Ph.D._ (2025 - Present)
+	* Pfizer Advisors: [Brett South](https://www.linkedin.com/in/brett-south-phd-famia-50242349) and [Ajit Jadhav](https://scholar.google.com/citations?user=-4XGT3IAAAAJ&hl=en)
 	* NEU Advisor: [Professor Melanie Tory](https://roux.northeastern.edu/people/melanie-tory/)
 
 * __Johns Hopkins University__ \- _ScM in Biostatistics_ (2021 - 2023)
@@ -32,8 +32,15 @@ Work
 ------
 
 * __Pfizer Digital Client Partners – Ajit Jadhav__ \- _Data Scientist - DRP Associate_ (Jun. 2024 - Present)
+  * Programming static and time-dependent forced ranking systems for target product profile support using various Multi-Objective Optimization Algorithms, including Evolutionary Algorithms, Reinforcement Learning, and Robust Portfolio Optimization in Python and R, also supporting expanding existing indications of Pfizer’s current portfolio drugs under competing drug efficacy, safety, viability, and stakeholder preference functions.
+  * Designing interactive D3, Python, and R-based visualizations to highlight the unmet needs areas for various demographic patient groups for diseases in Pfizer’s drug portfolio, using AWS for visualization deployments/usage data collection and custom HTML/CSS for user interface styling.
+  * Enhancing internal/vendor data APIs with LLM functionalities for accelerated unstructured and structured data ingestion, creating retrieval augmented generation systems with source citation, and (tabular data) disease evidence map generation using specialized decision science and topic expert LLM-based agents. 
 
 * __Pfizer AI/ML/Analytics Enterprise Architecture and L&D Analytics  – Randy Duncan and Leonidas Petridis__ \- _Software/Solution Engineer - DRP Associate_ (Jun. 2023 - Jun. 2024)
+  * Prototyped architectural features including Vector Databases and Retrieval Augmented Generation for the internal Large Language/GPT Model with enterprise scalability as the primary priority, utilizing AWS cloud-based tools and presenting results as an accessible Python/Streamlit-based interactive web-application.
+  * Developed an Enterprise Architecture CityMap tool in Python to allow Architecture team members to easily provide project and skillset overviews in accessible and intuitive manner, thus preventing the horizontal siloing of AI/ML/Analytics-based projects throughout the enterprise.
+  * Contributed to the evaluation framework documentation for the Architecture Data/Analytics Platform, addressing statistical and scalability concerns, also reviewing capabilities of services for the Data Visualization Decision Guide to ensure accurate and justified tool/service/programming language recommendations.
+  * Created interactive dashboards and automating data visualization pipelines using a combination of Power BI, Tableau, Python, and Excel in the context of commercial and learning/development related outcomes data. 
 
 * __Pfizer Machine Learning and Computational Science Group – Dr. Liang Xue__ \- _Data Scientist Intern_ (Jun. 2022 - Aug. 2022)
 	* Cooperated with Chemical Biology Group scientists to incrementally develop a MySQL database to store and query experiment, protein, and meta-data, thus also providing a deliverable that functioned as a proof of concept for other Pfizer groups with lacking proteomics data infrastructure.
