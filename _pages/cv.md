@@ -14,9 +14,6 @@ Expanded Resume/CV
 
 Education
 ------
-* __Northeastern University__ \- _Industry Ph.D._ (2025 - Present)
-	* Pfizer Advisors: [Brett South](https://www.linkedin.com/in/brett-south-phd-famia-50242349) and [Ajit Jadhav](https://scholar.google.com/citations?user=-4XGT3IAAAAJ&hl=en)
-	* NEU Advisor: [Professor Melanie Tory](https://roux.northeastern.edu/people/melanie-tory/)
 
 * __Johns Hopkins University__ \- _ScM in Biostatistics_ (2021 - 2023)
 	
@@ -30,7 +27,10 @@ Skills and Interests
 
 Work
 ------
-* __Pfizer Digital Client Partners – Ajit Jadhav__ \- _Data Scientist - DRP Associate_ (Jun. 2024 - Present)
+
+* __Mondelēz Insights and Analytics Group – Navneet Gill and Rakesh Loonawat__ \- _Data Science Manager_ (Jun. 2025 - Present)
+
+* __Pfizer Digital Client Partners – Ajit Jadhav__ \- _Data Scientist - DRP Associate_ (Jun. 2024 - Jun. 2025)
   * Programming static and time-dependent forced ranking systems for target product profile support using various Multi-Objective Optimization Algorithms, including Evolutionary Algorithms, Reinforcement Learning, and Robust Portfolio Optimization in Python and R, also supporting expanding existing indications of Pfizer’s current portfolio drugs under competing drug efficacy, safety, viability, and stakeholder preference functions.
   * Designing interactive D3, Python, and R-based visualizations to highlight the unmet needs areas for various demographic patient groups for diseases in Pfizer’s drug portfolio, using AWS for visualization deployments/usage data collection and custom HTML/CSS for user interface styling.
   * Enhancing internal/vendor data APIs with LLM functionalities for accelerated unstructured and structured data ingestion, creating retrieval augmented generation systems with source citation, and (tabular data) disease evidence map generation using specialized decision science and topic expert LLM-based agents. 
