@@ -30,41 +30,41 @@ Work
 
 * __Mondelēz Insights and Analytics Group – Navneet Gill and Rakesh Loonawat__ \- _Data Science Manager_ (Jun. 2025 - Present)
 
-* __Pfizer Digital Client Partners – Ajit Jadhav__ \- _Data Scientist - DRP Associate_ (Jun. 2024 - Jun. 2025)
+* __Pfizer Digital Client Partners__ \- _Data Scientist - DRP Associate_ (Jun. 2024 - Jun. 2025)
   * Programming static and time-dependent forced ranking systems for target product profile support using various Multi-Objective Optimization Algorithms, including Evolutionary Algorithms, Reinforcement Learning, and Robust Portfolio Optimization in Python and R, also supporting expanding existing indications of Pfizer’s current portfolio drugs under competing drug efficacy, safety, viability, and stakeholder preference functions.
   * Designing interactive D3, Python, and R-based visualizations to highlight the unmet needs areas for various demographic patient groups for diseases in Pfizer’s drug portfolio, using AWS for visualization deployments/usage data collection and custom HTML/CSS for user interface styling.
   * Enhancing internal/vendor data APIs with LLM functionalities for accelerated unstructured and structured data ingestion, creating retrieval augmented generation systems with source citation, and (tabular data) disease evidence map generation using specialized decision science and topic expert LLM-based agents. 
 
-* __Pfizer AI/ML/Analytics Enterprise Architecture and L&D Analytics  – Randy Duncan and Leonidas Petridis__ \- _Software/Solution Engineer - DRP Associate_ (Jun. 2023 - Jun. 2024)
+* __Pfizer AI/ML/Analytics Enterprise Architecture and L&D Analytics__ \- _Software/Solution Engineer - DRP Associate_ (Jun. 2023 - Jun. 2024)
   * Prototyped architectural features including Vector Databases and Retrieval Augmented Generation for the internal Large Language/GPT Model with enterprise scalability as the primary priority, utilizing AWS cloud-based tools and presenting results as an accessible Python/Streamlit-based interactive web-application.
   * Developed an Enterprise Architecture CityMap tool in Python to allow Architecture team members to easily provide project and skillset overviews in accessible and intuitive manner, thus preventing the horizontal siloing of AI/ML/Analytics-based projects throughout the enterprise.
   * Contributed to the evaluation framework documentation for the Architecture Data/Analytics Platform, addressing statistical and scalability concerns, also reviewing capabilities of services for the Data Visualization Decision Guide to ensure accurate and justified tool/service/programming language recommendations.
   * Created interactive dashboards and automating data visualization pipelines using a combination of Power BI, Tableau, Python, and Excel in the context of commercial and learning/development related outcomes data. 
 
-* __Pfizer Machine Learning and Computational Science Group – Dr. Liang Xue__ \- _Data Scientist Intern_ (Jun. 2022 - Aug. 2022)
+* __Pfizer Machine Learning and Computational Science Group__ \- _Data Scientist Intern_ (Jun. 2022 - Aug. 2022)
 	* Cooperated with Chemical Biology Group scientists to incrementally develop a MySQL database to store and query experiment, protein, and meta-data, thus also providing a deliverable that functioned as a proof of concept for other Pfizer groups with lacking proteomics data infrastructure.
 	* Programmed an accessible R Shiny-based UI to set up experiments/rawfiles/samplesheets, load in raw/processed data, modify data with excel-like interactivity, create a drag-and-drop tool to map omics files and data, store mapped data in a SQL database, and query stored data based on user needs.
     * Wrote markdown-based usage instructions and recorded tutorial videos to guide future database and UI users.
     * Created and tested scripts/methods to extend the Pfizer R Statistical Tool for Quantitative Mass Spectrometry-Based Proteomics (MSstats) package to process and standardize data from multiple proteomics data sources.  
 
-* __Pfizer Simulation and Modeling Science Group – Dr. Liang Xue__ \- _Software Development Intern_ (Jun. 2021 - Aug. 2021)
+* __Pfizer Simulation and Modeling Science Group__ \- _Software Development Intern_ (Jun. 2021 - Aug. 2021)
 	* Implemented an automated data pipeline in R, providing standardized computational proteomics cloud (SevenBridges) task execution and management capabilities.
 	* Optimized the functionality and speed of core pipeline elements, using API’s for virtual private cloud interfacing and MySQL database task logging.
     * Developed an R Shiny-based General User Interface, using reactivity, datatable, and dashboard layout elements to provide user-friendly access to pipeline tools.
     * Wrote Markdown-based documentation to provide software feature and usage instructions.
 	
-* __UNR Visual Perception Lab – Dr. Daniel Joyce__ \- _Student Researcher ([HURA](https://www.unr.edu/undergradresearch/opportunities/hura) Award Funded)_ (Jan. 2021 - May. 2021) 
+* __UNR Visual Perception Lab__ \- _Student Researcher ([HURA](https://www.unr.edu/undergradresearch/opportunities/hura) Award Funded)_ (Jan. 2021 - May. 2021) 
 	* Ported sleep classification algorithms from R to MATLAB and validated models with real-world sensor data.
 	* Pre-processed light-intensity/movement sensor data and programmed a graphical user interface for data visualization with MATLAB.
 	* Built, programmed, and calibrated a low-cost Arduino-based wrist-wearable for circadian rhythm measurement using C/C++.
 
-* __Nevada IDeA Network of Biomedical Research Excellence – Dr. Mihye Ahn__ \- _Student Researcher ([INBRE UROP](https://med.unr.edu/inbre/programs-and-projects/student-training-programs/undergraduate-program) Award Funded)_ (Jan. 2020 - Jan. 2021)
+* __Nevada IDeA Network of Biomedical Research Excellence__ \- _Student Researcher ([INBRE UROP](https://med.unr.edu/inbre/programs-and-projects/student-training-programs/undergraduate-program) Award Funded)_ (Jan. 2020 - Jan. 2021)
 	* Developed a user-friendly R Shiny web-application to deploy the best-performing prediction model.
 	* Containerized parallelized R-based analyses in Docker and Singularity to minimize model training times on local high-performance computing clusters.
 	* Minimized class imbalance effects of models using case-weighted models, subsampling techniques, and robust performance evaluation metrics.
 	* Utilized both supervised machine learning and traditional statistical methods for pediatric patient traumatic brain injury predictive modeling.
 
-* __UNR Department of Mathematics - Dr. Grant Schissler__ \- _Statistics Research Assistant_ (Aug. 2019 - Jan. 2020)
+* __UNR Department of Mathematics__ \- _Statistics Research Assistant_ (Aug. 2019 - Jan. 2020)
 	* Recommended future medical student outcome data collection and data evaluation strategies.
 	* Conducted R-based frequentist and bayesian regression analyses to assess the difference of the new UNR medical school curriculum.
 	* Performed data cleaning, numerical/visual exploratory data analysis, and assumption checking on medical school datasets in R.
