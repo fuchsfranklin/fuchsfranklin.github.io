@@ -1,6 +1,6 @@
 ---
 title: "Exploratory COVID-19 Modeling: Because There Weren't Already Enough Predictive COVID-19 Projects"
-excerpt: "This project explores the dynamics of the COVID-19 pandemic through three lenses: healthcare system strain, pandemic fatigue, and policy effectiveness. We developed predictive models for ICU utilization using LSTM and ensemble methods, achieving strong generalizability across countries and time periods. Pandemic fatigue was operationalized and detected using social media sentiment, policy data, and case trends, reaching over 89% balanced accuracy. We also applied causal and time-series methods, including wavelet coherence, to study the delayed effects of policy interventions."
+excerpt: "This project analyzes COVID-19 pandemic dynamics through three lenses: healthcare system strain, pandemic fatigue, and policy effectiveness. Using advanced machine learning including LSTM networks and ensemble methods, we predict ICU utilization with strong cross-country generalizability. We operationalize pandemic fatigue through a novel data-driven approach combining social media sentiment, policy stringency, and transmission trends. Finally, we quantify policy intervention lag using multiple time-series and causal inference methods, revealing the temporal gap between implementation and observable effects. Interactive dashboard and full analysis available"
 collection: portfolio
 ---
 <br />
@@ -8,4 +8,4 @@ collection: portfolio
 
 ## Project Overview
 
-This project explores the dynamics of the COVID-19 pandemic through three lenses: healthcare system strain, pandemic fatigue, and policy effectiveness. We developed predictive models for ICU utilization using LSTM and ensemble methods, achieving strong generalizability across countries and time periods. Pandemic fatigue was operationalized and detected using social media sentiment, policy data, and case trends, reaching over 89% balanced accuracy. We also applied causal and time-series methods, including wavelet coherence, to study the delayed effects of policy interventions.
+This project analyzes COVID-19 pandemic dynamics through three lenses: healthcare system strain, pandemic fatigue, and policy effectiveness. Using advanced machine learning including LSTM networks and ensemble methods, we predict ICU utilization with strong cross-country generalizability. We operationalize pandemic fatigue through a novel data-driven approach combining social media sentiment, policy stringency, and transmission trends. Finally, we quantify policy intervention lag using multiple time-series and causal inference methods, revealing the temporal gap between implementation and observable effects. Interactive dashboard and full analysis available
