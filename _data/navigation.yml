@@ -6,5 +6,5 @@ main:
   - title: "Projects"
     url: /portfolio/
 
-  - title: "Thinking Things Through"
-    url: /year-archive/ 
+  # - title: "Thinking Things Through"
+  #   url: /year-archive/ 
