@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently working at Mondelēz as a Data Science Manager in the Insights and Analytics Group under [Navneet Gill](https://www.linkedin.com/in/navneet-gill-33a76ba/) and [Rakesh Loonawat](https://www.linkedin.com/in/rakeshloonawat/), where I focus on informing product portfolio decisions and corporate strategy using methods in applied econometrics.
+I am currently working at Mondelēz as a Data Science Manager in the Insights and Analytics Group under [Navneet Gill](https://www.linkedin.com/in/navneet-gill-33a76ba/) and [Rakesh Loonawat](https://www.linkedin.com/in/rakeshloonawat/), where I focus on market research and providing product portfolio insights using methods in [Algorithmic Marketing](https://www.algorithmicmarketingbook.com/) and other adjacent areas in applied statistics.
 
 My Interests
 ======
