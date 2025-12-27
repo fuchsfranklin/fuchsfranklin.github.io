@@ -47,7 +47,7 @@ The post is structured as follows, where I try to think through some (I believe)
 5. **VTI vs DFUS** - Upgrading US equity exposure 
 6. **The International Challenge** - Why finding a "VXUS 2.0" is complicated
 7. **Quantifying Factor Exposures: 5-Factor Regressions** - Measuring systematic risk with Fama-French
-8. **References** - Sources and further reading
+8. **References** - Sources
 
 ---
 
