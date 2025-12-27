@@ -14,7 +14,7 @@ tags:
 <style>
 /* Larger, more readable code block text */
 .page__content pre {
-  font-size: 1.1em;
+  font-size: 1.35em;
   line-height: 1.4;
 }
 
