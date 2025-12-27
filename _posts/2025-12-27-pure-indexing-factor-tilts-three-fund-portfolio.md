@@ -11,6 +11,22 @@ tags:
   - personal-finance
 ---
 
+<style>
+/* Larger code blocks */
+.page__content pre {
+  font-size: 0.95em;
+  line-height: 1.5;
+  padding: 1.2em;
+}
+
+/* Larger images - slightly bigger while maintaining centering */
+.page__content img {
+  max-width: 95%;
+  display: block;
+  margin: 1.5em auto;
+}
+</style>
+
 All code, data, and plots for this post are available on [GitHub](https://github.com/fuchsfranklin/balancing-priorities-project).
 
 ## Post Rationale
@@ -68,7 +84,7 @@ Let us first start with the beloved Three-Fund Portfolio. As I understand it, it
 
  ---
 
-*Full code: [blog/vti_vxus_mix_comparison.py](blog/vti_vxus_mix_comparison.py)*
+*Full code: [vti_vxus_mix_comparison.py](/files/blog/vti_vxus_mix_comparison.py)*
 
 **Output:**
 ```
@@ -125,7 +141,7 @@ As an investor who wants to "do slightly better if possible, without fundamental
 
 Let's see how DFUS vs VTI have actually performed. The chart below shows growth of $1 since DFUS's inception, with returns adjusted for expense ratios (VTI: 0.03%, DFUS: 0.09%):
 
-*Full code: [blog/vti_dfus_comparison.py](blog/vti_dfus_comparison.py)*
+*Full code: [vti_dfus_comparison.py](/files/blog/vti_dfus_comparison.py)*
 
 **Output:**
 ```
@@ -171,7 +187,7 @@ Additionally, Dimensional does offer one single ETF for international: DFAX (Dim
 
 Let's see how DFAX has done vs VXUS. The chart below shows growth of $1 since DFAX's inception, with returns adjusted for expense ratios (VXUS: 0.07%, DFAX: 0.23%):
 
-*Full code: [blog/vxus_dfax_comparison.py](blog/vxus_dfax_comparison.py)*
+*Full code: [vxus_dfax_comparison.py](/files/blog/vxus_dfax_comparison.py)*
 
 **Output:**
 ```
@@ -199,7 +215,7 @@ Unlike the VTI/DFUS comparison, this is *not* an apples-to-apples comparison. Th
 
 To move beyond intuition and actually *measure* whether DFUS is a true VTI equivalent (and whether DFAX differs from VXUS), we can run Fama-French 5-factor regressions (Fama & French, 2015). This decomposes each ETF's returns into exposure to five systematic risk factors: Market (Mkt-RF), Size (SMB), Value (HML), Profitability (RMW), and Investment (CMA). If two funds have similar factor loadings, they have similar risk profiles regardless of their labels.
 
-*Full code: [blog/factor_regression_analysis.py](blog/factor_regression_analysis.py)*
+*Full code: [factor_regression_analysis.py](/files/blog/factor_regression_analysis.py)*
 
 **Output:**
 ```
