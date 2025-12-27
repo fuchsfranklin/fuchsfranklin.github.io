@@ -40,14 +40,14 @@ This post is just a string of semi-structured thoughts (by yours truly, your ave
 
 The post is structured as follows, where I try to think through some (I believe) given basics at a high level, but of investing is of course endlessly complex and again, this is not financial advice.
 
-1. **Index Funds: The Evidence-Based Path** - Why broad market indexing works (for the average retail investor such as myself)
-2. **The Science Behind Indexing** - CAPM, EMH, and Modern Portfolio Theory foundations
-3. **Factors** - Possibly moving beyond market beta to capture additional risk premiums
-4. **The Three-Fund Portfolio** - Bogleheads approach with VTI/VXUS/BND
-5. **VTI vs DFUS** - Upgrading US equity exposure 
-6. **The International Challenge** - Why finding a "VXUS 2.0" is complicated
-7. **Quantifying Factor Exposures: 5-Factor Regressions** - Measuring systematic risk with Fama-French
-8. **References** - Sources
+1. [**Index Funds: The Evidence-Based Path**](#index-funds-the-evidence-based-path-to-wealth) - Why broad market indexing works (for the average retail investor such as myself)
+2. [**The Science Behind Indexing**](#the-science-behind-indexing) - CAPM, EMH, and Modern Portfolio Theory foundations
+3. [**Factors**](#factors) - Possibly moving beyond market beta to capture additional risk premiums
+4. [**The Three-Fund Portfolio**](#the-three-fund-portfolio) - Bogleheads approach with VTI/VXUS/BND
+5. [**VTI vs DFUS**](#vti-vs-dfus) - Upgrading US equity exposure 
+6. [**The International Challenge**](#the-international-challenge) - Why finding a "VXUS 2.0" is complicated
+7. [**Quantifying Factor Exposures: 5-Factor Regressions**](#quantifying-factor-exposures-5-factor-regressions) - Measuring systematic risk with Fama-French
+8. [**References**](#references) - Sources
 
 ---
 
