@@ -2,7 +2,7 @@
 title: 'Pure Indexing, Flirting with Factor Tilts, and Finding Intermediaries: Thoughts on Addressing Index Inefficiencies in the Traditional Three-Fund Portfolio'
 date: 2025-12-27
 permalink: /posts/2025/12/pure-indexing-factor-tilts-three-fund-portfolio/
-excerpt: "After reading Ang's 'Asset Management: A Systematic Approach to Factor Investing' and Malkiel's 'A Random Walk,' I wanted to explore how funds like Dimensional's DFUS address indexing inefficiencies without fully committing to factor tilts. The goal: capture market beta with slightly better returns. DFUS works for US equities, but finding a VXUS replacement remains unsolved. This is not financial advice, as I am just your average retail investor."
+excerpt: "After reading Ang's 'Asset Management: A Systematic Approach to Factor Investing' and Malkiel's 'A Random Walk,' I wanted to explore how funds like Dimensional's DFUS address indexing inefficiencies without fully committing to factor tilts. The goal: capture market beta while addressing inefficiencies such as adverse selection. DFUS works for US equities, but finding a VXUS replacement remains unsolved. This is not financial advice, as I am just your average retail investor."
 tags:
   - investing
   - index-funds
@@ -46,6 +46,8 @@ The post is structured as follows, where I try to think through some (I believe)
 4. **The Three-Fund Portfolio** - Bogleheads approach with VTI/VXUS/BND
 5. **VTI vs DFUS** - Upgrading US equity exposure 
 6. **The International Challenge** - Why finding a "VXUS 2.0" is complicated
+7. **Quantifying Factor Exposures: 5-Factor Regressions** - Measuring systematic risk with Fama-French
+8. **References** - Sources and further reading
 
 ---
 
