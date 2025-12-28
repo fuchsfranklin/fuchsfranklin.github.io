@@ -268,13 +268,13 @@ For now, my plan is to stick with VXUS for international while I continue resear
 ### Books
 
 **Malkiel, B. G.** (2023). *A Random Walk Down Wall Street: The Time-Tested Strategy for Successful Investing* (50th Anniversary Edition). W. W. Norton & Company. ISBN: 978-0393358389.  
-[https://wwnorton.com/books/9780393358389](https://wwnorton.com/books/9780393358389)
+[https://wwnorton.com/books/9781324035435](https://wwnorton.com/books/9781324035435)
 
 **Collins, J. L.** (2016). *The Simple Path to Wealth*. JL Collins LLC. ISBN: 978-1533667922.  
 [https://www.simplepathtowealth.com/](https://www.simplepathtowealth.com/)
 
 **Swedroe, L. & Berkin, A.** (2016). *Your Complete Guide to Factor-Based Investing: The Way Smart Money Invests Today*. Harriman House. ISBN: 978-0857195387.  
-[https://www.harriman-house.com/completeguidefactorinvesting](https://www.harriman-house.com/completeguidefactorinvesting)
+[https://www.amazon.com/Your-Complete-Guide-Factor-Based-Investing-ebook/dp/B01N7FCW2D](https://www.amazon.com/Your-Complete-Guide-Factor-Based-Investing-ebook/dp/B01N7FCW2D)
 
 **Ang, A.** (2014). *Asset Management: A Systematic Approach to Factor Investing*. Oxford University Press. ISBN: 978-0199959327.  
 [https://global.oup.com/academic/product/asset-management-9780199959327](https://global.oup.com/academic/product/asset-management-9780199959327)
@@ -300,8 +300,8 @@ For now, my plan is to stick with VXUS for international while I continue resear
 
 ### Videos & Multimedia
 
-**Felix, B.** (2025). Why DFUS Outperformed VTI (And What It Means for Index Funds). *Rational Reminder / YouTube*.  
-[https://www.youtube.com/watch?v=qTw-rDF9XOg](https://www.youtube.com/watch?v=qTw-rDF9XOg)
+**Felix, B.** (2025). Comparing U.S. Equity ETFs: VTI vs. DFUS. *Rational Reminder / YouTube*.  
+[https://youtu.be/lMdGA0ePXzI?si=L3kO7xyAme3sC0fD](https://youtu.be/lMdGA0ePXzI?si=L3kO7xyAme3sC0fD)
 
 ### Industry Sources
 
@@ -324,10 +324,10 @@ For now, my plan is to stick with VXUS for international while I continue resear
 [https://investor.vanguard.com/investment-products/etfs/profile/vxus](https://investor.vanguard.com/investment-products/etfs/profile/vxus)
 
 **Avantis Investors.** (2024). AVDE - International Equity ETF.  
-[https://www.avantisinvestors.com/investments/avde](https://www.avantisinvestors.com/investments/avde)
+[https://www.morningstar.com/etfs/arcx/avde/quote](https://www.morningstar.com/etfs/arcx/avde/quote)
 
 **Avantis Investors.** (2024). AVEM - Emerging Markets Equity ETF.  
-[https://www.avantisinvestors.com/investments/avem](https://www.avantisinvestors.com/investments/avem)
+[https://www.avantisinvestors.com/avantis-investments/avantis-emerging-markets-equity-etf/](https://www.avantisinvestors.com/avantis-investments/avantis-emerging-markets-equity-etf/)
 
 ### Web Resources
 
