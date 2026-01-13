@@ -32,13 +32,13 @@ All code, data, and plots for this post are available on [GitHub](https://github
 
 Recently having finished [Andrew Ang's](https://www.sipa.columbia.edu/communities-connections/faculty/andrew-ang) book "Asset Management: A Systematic Approach to Factor Investing" and also having reread the newest 50th anniversary edition version of [Burton Malkiel's](https://jrc.princeton.edu/people/burton-g-malkiel) "A Random Walk Down Wall Street" a second time, I wanted to more deeply think about indexing inefficiencies that low-cost fund combinations of international and US equity ETFs like VTI and VXUS inherently have, and how literature-informed companies like [Dimensional](https://www.dimensional.com/us-en/individual) provide "Market" type funds that address these inefficiencies, without me needing to necessarily fully commit to the idea of factor tilting yet. Thus, the aim here is to essentially still capture market beta (being slightly optimized with higher net returns), where DFUS seems to be a replacement for VTI for the US Market, but there is no simple total international Market replacement for VXUS.
 
-This post is just a string of semi-structured thoughts (by yours truly, your average retail investor), that are by definition incomplete and work in progress, so any constructive feedback would be greatly appreciated, especially if you can help solve the dilemma that lead me to write this post in the first place. Most importantly, none of this is financial advice.
+This post is just a string of structured thoughts, so any constructive feedback would be greatly appreciated, especially if you can help solve the dilemma that lead me to write this post in the first place. Most importantly, none of this is financial advice.
 
 ---
 
 ## Overview
 
-The post is structured as follows, where I try to think through some (I believe) given basics at a high level, but of investing is of course endlessly complex and again, this is not financial advice.
+The post is structured as follows, where I try to think through some (I believe) given basics at a high level.
 
 1. [**Index Funds: The Evidence-Based Path**](#index-funds-the-evidence-based-path-to-wealth) - Why broad market indexing works (for the average retail investor such as myself)
 2. [**The Science Behind Indexing**](#the-science-behind-indexing) - CAPM, EMH, and Modern Portfolio Theory foundations
