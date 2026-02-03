@@ -23,7 +23,7 @@ Skills and Interests
 ------
 * __Programming Languages__: R, Python, SQL, C++, C, MATLAB
 * __Software__: GCP, AWS, Databricks, BigQuery, Dataiku, Docker, Singularity, SLURM, Markdown, Shiny, LaTeX, Linux Shell, Office Suite, Git, and GitHub
-* __Modeling and Computing__: Multi-Objective Optimization, Classification, Regression, Predictive Analytics, Feature Engineering, Variable Selection, Data Wrangling, Exploratory Data Analysis, High-Performance/Cluster Computing, Containerization, Database Design and Implementation, Web-Application Development, Interactive Data Visualization, LLM Infrastructure Testing/Development
+* __Modeling and Computing__: Multi-Objective Optimization, Classification, Regression, Time Series Forecasting, Predictive Analytics, Feature Engineering, Variable Selection, Data Wrangling, Exploratory Data Analysis, High-Performance/Cluster Computing, Containerization, Database Design and Implementation, Web-Application Development, Interactive Data Visualization, LLM Infrastructure Testing/Development
 
 Work
 ------
