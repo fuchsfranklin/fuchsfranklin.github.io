@@ -34,7 +34,7 @@ Their reliability depends fundamentally on what they are searching. Connect an L
 
 But most of what retail-facing deep research tools search is not peer-reviewed. Code repositories, blog posts, Stack Overflow answers, documentation pages: none of these have a publication barrier. Anyone can push a README claiming state-of-the-art performance. And deep research cannot tell the difference, because it reads text, not code, and cannot execute anything to verify claims independently.
 
-This post explores *why* deep research fails in these unvetted domains, grounded in recent literature, with a small experiment to illustrate the problem firsthand. This is not a takedown of these tools, but understanding where the quality gate exists (and where it does not) matters if you use them for anything important. The separate issue of AI-generated content infiltrating peer review itself (fabricated citations in accepted papers, LLM-written reviews, etc.) is a growing concern but not within scope here.
+This post aims to better understand why deep research fails in these unvetted domains, grounded in some recent literature, with a small experiment to illustrate the problem firsthand. This is not a takedown of these tools, but understanding where the quality gate exists (and where it does not) matters if you use them for anything important. The separate issue of AI-generated content infiltrating peer review itself (fabricated citations in accepted papers, LLM-written reviews, etc.) is a growing concern but not within scope here.
 
 ---
 
@@ -70,11 +70,11 @@ A 2025 study by the Tow Center for Digital Journalism at Columbia University eva
 
 A landmark BBC and European Broadcasting Union study analyzed over 3,000 responses from ChatGPT, Gemini, Copilot, and Perplexity on current news topics. 45% of responses contained at least one significant issue. 31% had serious sourcing problems. 20% had major accuracy issues including hallucinated details and outdated information. When accounting for minor errors, 81% of responses had some form of problem. Gemini was the worst performer, with significant issues in 76% of its responses (BBC/EBU, 2025).
 
-Perhaps most striking: a study analyzing papers accepted at NeurIPS 2025, one of the most prestigious AI conferences in the world, found 100 fabricated citations across 51 accepted submissions (GPTZero, 2025). These were not student projects. These were peer-reviewed papers at a top venue, and the fabricated references slipped through. This is an example of AI-generated content infiltrating the peer review process itself, which as noted in the rationale is a separate and important problem. For our purposes here, it illustrates that even the peer-review quality gate is not immune to AI-era challenges, though it remains a far stronger filter than no gate at all.
+Perhaps most striking: a study analyzing papers accepted at NeurIPS 2025, one of the most prestigious AI conferences in the world, found 100 fabricated citations across 53 accepted papers (Ansari, 2025). These were not student projects. These were peer-reviewed papers at a top venue, and the fabricated references slipped through. This is an example of AI-generated content infiltrating the peer review process itself, which as noted in the rationale is a separate and important problem. For our purposes here, it illustrates that even the peer-review quality gate is not immune to AI-era challenges, though it remains a far stronger filter than no gate at all.
 
 The DeepTRACE audit framework (Venkit et al., 2025) from Salesforce and Microsoft Research evaluated deep research agents specifically. Their findings: citation accuracy ranged from 40% to 80% across systems. Deep research configurations reduced overconfidence compared to standard search, but still produced large fractions of statements unsupported by their own listed sources. Even when the tools cited a source, the source often did not actually support the claim being made.
 
-A separate study published in JMIR Mental Health found that across 176 AI-generated citations, 35 were completely fabricated, 64 of the real ones contained errors, and only 77 (44%) were both real and accurate. Hallucination rates increased on specialized or less-covered topics (Gravel et al., 2025).
+A separate study published in JMIR Mental Health found that across 176 AI-generated citations from GPT-4o, 35 were completely fabricated, 64 of the real ones contained errors, and only 77 (44%) were both real and accurate. Hallucination rates increased on specialized or less-covered topics (Linardon et al., 2025).
 
 The pattern is consistent across studies: these tools fabricate sources, misattribute claims, link to broken URLs, and do all of this without expressing uncertainty. The user has no way to distinguish a real citation from a hallucinated one without manually checking every single reference.
 
@@ -86,7 +86,7 @@ This is where things get particularly interesting for anyone using deep research
 
 The CodeHalu benchmark (Tian et al., 2024) systematically studied code hallucinations in LLMs and identified four distinct types: mapping hallucinations (misunderstanding the task), naming hallucinations (referencing nonexistent APIs or variables), resource hallucinations (using unavailable external resources), and logic hallucinations (producing code that is syntactically valid but logically wrong). The key finding: LLMs generate code that *looks* correct and often compiles without errors, but fails to produce expected outputs when actually executed.
 
-This problem extends beyond generating code to a more insidious issue: recommending code that does not exist. A large-scale study analyzing 576,000 code samples generated by 16 widely used LLMs found that approximately 440,000 of the package dependencies referenced were "hallucinated," meaning the packages did not exist in any public repository (Spracklen et al., 2025). This phenomenon, now called "slopsquatting," has become a real supply chain security threat. Malicious actors can register these hallucinated package names and fill them with malware, knowing that developers using LLM-generated code will install them. In roughly 20% of examined cases, the recommended packages were entirely fictional.
+This problem extends beyond generating code to a more insidious issue: recommending code that does not exist. A large-scale study analyzing 576,000 code samples generated by 16 widely used LLMs found that the average percentage of hallucinated packages was at least 5.2% for commercial models and 21.7% for open-source models, with over 205,000 unique hallucinated package names identified (Spracklen et al., 2025). This phenomenon, now called "slopsquatting," has become a real supply chain security threat. Malicious actors can register these hallucinated package names and fill them with malware, knowing that developers using LLM-generated code will install them.
 
 Now consider what happens when you ask a deep research tool about a specific GitHub repository. The tool reads the README, which might say "this library implements a transformer-based model for time series forecasting with state-of-the-art accuracy on the ETTh1 benchmark." Deep research will report this claim as fact. But it cannot:
 
@@ -178,10 +178,10 @@ The irony is not lost on me: the people most likely to catch deep research error
 
 ### Academic Papers and Benchmarks
 
-**Tian, H., Lu, W., Li, T. O., Tang, X., Cheung, S., Klein, J., & Bissyandé, T. F.** (2024). CodeHalu: Investigating Code Hallucinations in LLMs via Execution-based Verification. *arXiv preprint arXiv:2405.00253*.  
+**Tian, Y., Yan, W., Yang, Q., Zhao, X., Chen, Q., Wang, W., Luo, Z., Ma, L., & Song, D.** (2024). CodeHalu: Investigating Code Hallucinations in LLMs via Execution-based Verification. *Proceedings of the AAAI Conference on Artificial Intelligence (AAAI 2025)*. arXiv:2405.00253.  
 [https://arxiv.org/abs/2405.00253](https://arxiv.org/abs/2405.00253)
 
-**Spracklen, J., Neupane, A., & Challagundla, S.** (2025). We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs. *arXiv preprint arXiv:2406.10279*.  
+**Spracklen, J. et al.** (2025). We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs. *Proceedings of the USENIX Security Symposium 2025*. arXiv:2406.10279.  
 [https://arxiv.org/abs/2406.10279](https://arxiv.org/abs/2406.10279)
 
 **Venkit, P. N., Laban, P., Zhou, Y., Huang, K.-H., Mao, Y., & Wu, C.-S.** (2025). DeepTRACE: Auditing Deep Research AI Systems for Tracking Reliability Across Citations and Evidence. *arXiv preprint arXiv:2509.04499*.  
@@ -193,17 +193,18 @@ The irony is not lost on me: the people most likely to catch deep research error
 ### Industry Studies
 
 **Tow Center for Digital Journalism, Columbia University.** (2025). AI Search and News Citation Accuracy Study.  
-[https://www.cjr.org/tow_center](https://www.cjr.org/tow_center)
+[https://www.cjr.org/tow_center/](https://www.cjr.org/tow_center/)
 
 **BBC & European Broadcasting Union.** (2025). AI Assistants and News Accuracy: An International Study. Analysis of 3,000+ responses across ChatGPT, Gemini, Copilot, and Perplexity.  
 [https://www.bbc.co.uk/rd/publications](https://www.bbc.co.uk/rd/publications)
 
-**GPTZero.** (2025). A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025. *arXiv preprint arXiv:2602.05930*.  
+**Ansari, M. S.** (2025). Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025. *arXiv preprint arXiv:2602.05930*.  
 [https://arxiv.org/abs/2602.05930](https://arxiv.org/abs/2602.05930)
 
 ### Additional Sources
 
-**Gravel, J. et al.** (2025). Citation Hallucination in Large Language Models: A Study of AI-Generated Bibliographic References. *JMIR Mental Health*.
+**Linardon, J., Jarman, H. K., McClure, Z., Anderson, C., Liu, C., & Messer, M.** (2025). Influence of Topic Familiarity and Prompt Specificity on Citation Fabrication in Mental Health Research Using Large Language Models: Experimental Study. *JMIR Mental Health*, 12, e80371.  
+[https://mental.jmir.org/2025/1/e80371/](https://mental.jmir.org/2025/1/e80371/)
 
 **Frontiers in AI.** (2025). Survey and Analysis of Hallucinations in Large Language Models: Attribution to Prompting Strategies or Model Behavior.  
 [https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1622292/full](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1622292/full)
