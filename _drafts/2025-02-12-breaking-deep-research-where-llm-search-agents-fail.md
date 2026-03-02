@@ -2,7 +2,7 @@
 title: 'Breaking Deep Research: Where Retail User LLM Search Agents Fail and Why Verification Still Falls on You'
 date: 2025-02-12
 permalink: /posts/2025/02/breaking-deep-research-where-llm-search-agents-fail/
-excerpt: "Deep research tools from OpenAI, Google, and Perplexity promise source-grounded synthesis, but their reliability depends heavily on what they are searching. Professional tools connected to peer-reviewed databases like PubMed have a built-in quality gate: the barrier to publication is literally peer review. But for code repositories, blog posts, and other sources with no editorial barrier, deep research inherits every error, exaggeration, and fabrication in the source material. Digging into some of the recent literature myself, it looks like studies often find citation accuracy as low as 40% and fabricated references. I tested all three tools on the same code-type deep research question as a small experiment to show how they can fail (a la proof by contradiction). The issue of AI-generated content infiltrating peer review itself is a separate and important problem, but not within the scope of this post."
+excerpt: "Deep research tools from OpenAI, Google, and Perplexity promise source-grounded synthesis, but their reliability depends heavily on what they are searching. Professional tools connected to peer-reviewed databases like PubMed have a built-in quality gate: the barrier to publication is literally peer review. But for code repositories, blog posts, and other sources with no editorial barrier, deep research inherits every error, exaggeration, and fabrication in the source material. Digging into some of the recent literature myself, it looks like studies often find citation accuracy as low as 40% and fabricated references. I tested all three tools on the same library-evaluation question as a small experiment to show how they can fail (a la proof by contradiction). One tool recommended an abandoned library as its top pick with an apparently fabricated release date. The issue of AI-generated content infiltrating peer review itself is a separate and important problem, but not within the scope of this post."
 tags:
   - AI
   - deep-research
@@ -40,13 +40,16 @@ This post aims to better understand why deep research fails in these unvetted do
 
 ## Overview
 
+The post is structured as follows, covering the literature and a small experiment.
+
 1. [**What Deep Research Actually Does (and Does Not Do)**](#what-deep-research-actually-does-and-does-not-do) - The retrieval-synthesis pipeline and its blind spots
 2. [**The Citation Problem**](#the-citation-problem) - Fabricated references, broken URLs, and misattributed claims
 3. [**The Code Verification Gap**](#the-code-verification-gap) - Why deep research cannot verify what code actually does
 4. [**Why Connectors and RAG Do Not Fully Solve This**](#why-connectors-and-rag-do-not-fully-solve-this) - Hallucinations accumulate across the research trajectory
-5. [**Experiment: One Question, Three Tools, Ground Truth**](#experiment-one-question-three-tools-ground-truth) - Testing ChatGPT, Gemini, and Perplexity against a real GitHub repo
+5. [**Experiment: One Question, Three Tools, Ground Truth**](#experiment-one-question-three-tools-ground-truth) - Testing ChatGPT, Gemini, and Perplexity on library evaluation
 6. [**What This Means for You**](#what-this-means-for-you) - Practical implications
 7. [**References**](#references) - Sources
+8. [**Appendix: Full Model Responses**](#appendix-full-model-responses) - Verbatim outputs from all three tools
 
 ---
 
@@ -125,34 +128,68 @@ So the picture is: connectors to peer-reviewed databases improve *input* quality
 
 ### Experiment: One Question, Three Tools, Ground Truth
 
-To move beyond citing other people's findings, I wanted to test this myself. The setup is simple: ask ChatGPT Deep Research, Gemini, and Perplexity the same technical question about a real GitHub repository, then score their responses against the actual code.
+To move beyond citing other people's findings, I wanted to test this myself. The logic is similar to proof by contradiction in mathematics: if deep research tools can reliably evaluate open-source software, then asking all three the same well-defined evaluation question should produce recommendations consistent with verifiable ground truth. If even one tool confidently recommends something that is demonstrably wrong, the verification gap is not theoretical.
 
-**The Question:**
+**The Setup**
 
-I chose a question that requires understanding actual code behavior, not just reading documentation. The specific question, repository, and methodology will be documented in the companion GitHub repo once the experiment is complete. The key criteria for the question:
+I asked ChatGPT Deep Research (free tier), Gemini Deep Research (free tier), and Perplexity the same question. I deliberately chose a question where deep research is the right tool: evaluating and recommending open-source libraries. This is not a coding question (you would not "just run code" to answer it), not a calculation question, and not something obscure. It is exactly the kind of knowledge-synthesis task these tools are marketed for.
 
-1. It must be about a real, public repository with verifiable ground truth
-2. The answer must require understanding code logic, not just reading the README
-3. The correct answer must be unambiguous and confirmable by running the code
-4. The README or documentation should not directly state the answer (forcing the tools to reason about code)
+**The Prompt:**
 
-**Scoring Rubric:**
+> I'm a data engineer building a monitoring pipeline for IoT sensor data (temperature, vibration, pressure) from manufacturing equipment. I need to detect anomalies in univariate and multivariate time series streams in near-real-time using Python. The system needs to handle seasonal patterns, trend shifts, and sudden spikes. I want a library that is production-ready, actively maintained, well-documented, and installable via pip without dependency conflicts on Python 3.11+. Can you evaluate the top open-source Python libraries for time series anomaly detection and recommend the best 3-4 options for my use case, with pros and cons for each?
+
+**Why This Question Works**
+
+The time series anomaly detection space in Python is full of "zombie libraries": projects that look impressive on paper (strong READMEs, blog coverage, big-name backing) but are effectively abandoned. The ground truth is verifiable through PyPI release histories, GitHub commit activity, and package health trackers like [Snyk Advisor](https://snyk.io/advisor/), none of which require running code. But deep research tools do not check these sources. They read READMEs, blog posts, and tutorials, many of which were written in 2021-2023 when these libraries were still active.
+
+**Ground Truth (verified via PyPI, GitHub, and Snyk Advisor as of March 2026):**
+
+| Library | Last PyPI Release | Snyk Status | Key Facts |
+|---------|------------------|-------------|-----------|
+| ADTK (arundo/adtk) | 5 years ago | Inactive | Last commit 5 years ago. 46 open issues. Completely abandoned. |
+| Kats (facebookresearch/Kats) | 3 years ago | Inactive | `pip install kats` fails ([Issue #308](https://github.com/facebookresearch/Kats/issues/308)). Depends on deprecated `fbprophet`. |
+| Luminaire (zillow/luminaire) | 2 years ago | Inactive | 1 maintainer. No new PyPI releases. Effectively shelved. |
+
+A correct answer would avoid recommending these libraries for production use. A failed answer would recommend one or more of them based on their documentation and blog coverage, without flagging that they are abandoned or broken.
+
+**Results**
+
+I ran all three tools on March 1, 2026. Full verbatim responses are in the [Appendix](#appendix-full-model-responses).
+
+**ChatGPT Deep Research** recommended Luminaire as its top pick. It described Luminaire's features glowingly ("handles seasonality and trend changes natively," "well-documented examples and Zillow support") and claimed the last release was "v0.4.3 Jan 2024 (commits as recent as Aug 2025)." This release version and date do not match what PyPI and Snyk show. Snyk flags Luminaire as Inactive with its last release 2 years ago. ChatGPT never mentioned ADTK or Kats to warn against them. It also recommended StreamAD (last release 2023, roughly 130 GitHub stars) without flagging its low activity. Of the four libraries it recommended (Luminaire, PySAD, Merlion, StreamAD), only PySAD and Merlion are defensible choices, and Merlion itself has not shipped a PyPI release since February 2023.
+
+**Gemini Deep Research** recommended River, Merlion, Orion, and Alibi Detect. It avoided all three zombie libraries entirely. Its recommendations were technically sound and well-reasoned. The one miss: it described Merlion as "actively maintained by Salesforce AI Research" without noting that Merlion's last PyPI release was over three years ago. Still, it did not recommend any abandoned library as a top pick.
+
+**Perplexity** recommended STUMPY, PyOD, PySAD, and Merlion. It avoided all three zombie libraries and went further: it explicitly warned against ADTK ("Avoid ADTK, despite its clean API and some continued community usage, its last release was April 2020 and it has known compatibility issues with modern pandas"). It also flagged Merlion's staleness with specific dates ("Last PyPI release was February 2023, over three years old") and recommended it only for prototyping, not production. Perplexity provided 63 source citations.
+
+**Scoring Rubric**
 
 Each response is scored on five dimensions (0-2 points each, 10 total):
 
 | Dimension | 0 | 1 | 2 |
 |-----------|---|---|---|
-| **Factual Accuracy** | Major factual errors | Partially correct | Fully correct |
-| **Code Understanding** | Did not understand the code logic | Surface-level understanding | Demonstrated actual comprehension |
-| **Source Quality** | Fabricated or irrelevant sources | Some valid sources, some issues | All sources valid and relevant |
-| **Uncertainty Calibration** | Confident and wrong | Mixed signals | Appropriately confident or appropriately uncertain |
-| **Completeness** | Missed key aspects | Addressed some aspects | Comprehensive |
+| Factual Accuracy | Major factual errors | Partially correct | Fully correct |
+| Source Quality | Fabricated or irrelevant sources | Some valid sources, some issues | All sources valid and relevant |
+| Maintenance Awareness | Recommended abandoned libraries | Avoided them but did not flag | Correctly identified and warned |
+| Uncertainty Calibration | Confident and wrong | Mixed signals | Appropriately confident or uncertain |
+| Completeness | Missed key aspects | Addressed some aspects | Comprehensive |
 
-**Results:**
+| Dimension | ChatGPT | Gemini | Perplexity |
+|-----------|---------|--------|------------|
+| Factual Accuracy | 0 | 2 | 2 |
+| Source Quality | 0 | 1 | 2 |
+| Maintenance Awareness | 0 | 1 | 2 |
+| Uncertainty Calibration | 0 | 1 | 2 |
+| Completeness | 1 | 2 | 2 |
+| **Total** | **1/10** | **7/10** | **10/10** |
 
-*[This section will be populated once I run the experiment across all three tools. I will include the exact question asked, verbatim excerpts from each tool's response, the ground truth answer verified by running the code, and the scores. The companion repo will contain the full responses and verification code.]*
+**What This Shows**
 
-I will update this section and link to the full experiment data on [GitHub](https://github.com/fuchsfranklin) once complete. The goal is not to declare a "winner" among the three tools, but to illustrate the verification gap in practice: even the best-performing tool may get things wrong in ways that are invisible without independent verification.
+The contradiction is established. ChatGPT Deep Research, given a straightforward library-evaluation question with objectively verifiable ground truth, recommended an abandoned library as its top pick with what appears to be fabricated release information. It read Luminaire's README and documentation, found the features impressive, and had no mechanism to verify that the project is effectively dead. This is the verification gap in practice: the text says one thing, reality says another, and deep research can only read the text.
+
+Gemini and Perplexity performed substantially better, with Perplexity delivering the strongest result. But the divergence itself is telling. Three tools, same question, same day, and the recommendations ranged from "use this abandoned library" to "explicitly avoid abandoned libraries." A user who happened to use ChatGPT would have gotten a materially worse answer than one who used Perplexity, with no way to know that without independent verification.
+
+It is worth noting that these capabilities are improving rapidly. These results reflect the free tiers of each tool as of March 1, 2026, and outputs are likely to change as models are updated. The point is not that any particular tool is permanently broken, but that the structural limitation (reading text, not verifying claims) persists regardless of which model is behind the search.
 
 ---
 
@@ -208,3 +245,136 @@ The irony is not lost on me: the people most likely to catch deep research error
 
 **Frontiers in AI.** (2025). Survey and Analysis of Hallucinations in Large Language Models: Attribution to Prompting Strategies or Model Behavior.  
 [https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1622292/full](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1622292/full)
+
+---
+
+## Appendix: Full Model Responses
+
+The following are the verbatim responses from each tool, run on March 1, 2026, using the free tier of each service. They are included here for transparency and reproducibility.
+
+<details>
+<summary><strong>ChatGPT Deep Research (free tier) - Full Response</strong></summary>
+
+<h4>Top Python Libraries for IoT Time-Series Anomaly Detection</h4>
+
+For real-time anomaly detection on IoT sensor streams (including trends, seasonality, and spikes), strong candidates are Luminaire, PySAD, Merlion, and StreamAD. All are open-source, pip-installable, and support Python 3.11+. Below we summarize each with pros and cons (with sources).
+
+<strong>Luminaire (Zillow)</strong>
+
+Luminaire is an ML-driven time-series monitoring library by Zillow. It explicitly models seasonality, correlations and trend shifts in the data. The toolkit includes preprocessing, filtering and forecasting-based detectors and can operate on sliding windows for streaming data. It supports univariate/multivariate data and provides hyperparameter optimization for "hands-off" tuning.
+
+Pros: Handles seasonality and trend changes natively. Offers a complete pipeline (data cleaning, profile, modeling, hyperparameter tuning) and supports anomaly detection on sliding windows (useful in streaming contexts). Well-documented examples and Zillow support.
+
+Cons: Moderate community (roughly 800 stars). Last release v0.4.3 was Jan 2024 (commits as recent as Aug 2025), so maintenance is decent but not extremely rapid. Depends on standard ML libs (pandas, sklearn, etc.). Requires Python 3.7+ (so 3.11 is supported, though not explicitly tested). Less lightweight than simpler methods.
+
+<strong>PySAD (Selim Yilmaz et al.)</strong>
+
+PySAD is an open-source streaming anomaly detection framework designed specifically for online/real-time use. It supports both univariate and multivariate data, integrating many algorithms (streaming variants of clustering, ensembles, neural nets, etc.) and even adapts batch detectors (via PyOD) for streaming settings. The latest version (v0.3.4) was released June 24, 2025. It requires Python 3.10+ (fully compatible with 3.11).
+
+Pros: Explicitly built for online/streaming data (updates per instance). Supports a wide range of detectors for uni- and multivariate streams. Active development (release in 2025) and BSD license. Includes evaluation and calibration tools for streaming. Integrates with PyOD for extra models.
+
+Cons: Young (v0.3.x, marked "Pre-Alpha" on PyPI) so API may evolve. Heavy dependencies (numpy 2.0, sklearn, etc.) which may cause version conflicts. Requires Python 3.10+ (thus no support for 3.9 or older). Moderate community (roughly 280 stars).
+
+<strong>Merlion (Salesforce)</strong>
+
+Merlion is a comprehensive time-series intelligence library. It provides unified APIs for anomaly detection, forecasting and change-point detection on uni- or multivariate series. Merlion includes many classical and modern models (statistical, ML, deep learning) and supports AutoML, ensembling, and rich benchmarking. Notably, its Dynamic Baseline detector explicitly handles seasonal patterns (daily/weekly/monthly trends). The latest release (v2.0.4) was June 2024, and it supports Python 3.7+ (so 3.11 is fine).
+
+Pros: Extremely feature-rich: many built-in models (seasonal models, forecasting-based detectors, ensemble, dashboard GUI, etc.), automated tuning, and a unified framework for batch and streaming evaluation. Well-maintained by Salesforce with substantial documentation. Handles seasonality and trend via forecasting and post-processing (e.g. dynamic baseline model).
+
+Cons: Very large and complex; can be overkill if you only need a simple detector. Primarily designed for batch training with retraining (though it can be applied incrementally). Heavy dependencies and overhead (many optional extras for deep learning, Spark, UI, etc.). Less "lightweight" than specialized streaming libraries.
+
+<strong>StreamAD (Fengrui Liu)</strong>
+
+StreamAD is a lightweight streaming anomaly detection library. It processes one sample at a time to simulate real-time monitoring. It includes multiple univariate detectors (Z-score, SARIMAX seasonal ARIMA, conformal KNN, SPOT/ESEV, etc.) and multivariate detectors (xStream, RRCF, LODA, etc.). The stable release 0.3.1 dates to May 2023. It is pip-installable and supports Python 3.8-3.11.
+
+Pros: Focused on streaming use-cases with a variety of built-in algorithms. Easy to install and use; minimal dependencies (Apache-2.0 license). Explicit implementations of classic methods (e.g. seasonal ARIMA) make it suitable for seasonal data. Good for quick prototyping of uni/multivariate detectors.
+
+Cons: Relatively low activity: last release 2023 with only a few contributors (roughly 130 stars). Lacks automated tuning or rich evaluation tools. Algorithms may be more "textbook" and less optimized. Less documentation/tutorials compared to larger frameworks.
+
+</details>
+
+<details>
+<summary><strong>Gemini Deep Research (free tier) - Full Response</strong></summary>
+
+<em>Note: This response was substantially longer than the others. Key sections are included below; minor formatting has been adjusted for readability.</em>
+
+<h4>Production-Ready Frameworks for Industrial IoT Time Series Anomaly Detection</h4>
+
+Gemini recommended four libraries: River, Salesforce Merlion, MIT Orion, and Seldon Alibi Detect.
+
+<strong>River: Incremental Learning for Real-Time Streaming</strong>
+
+River is a Python library designed specifically for online machine learning, representing a merger of the creme and scikit-multiflow projects. Unlike traditional batch machine learning, River models learn from data streams one observation at a time. River's anomaly module provides estimators centered on the score_one method. Algorithms include Half-Space Trees (HST), Online Local Outlier Factor (LOF), and Standard Absolute Deviation (SAD). River is distributed under the BSD 3-Clause License and supports Python 3.10+.
+
+Pros: Pure streaming; processes one sample at a time. Extremely fast; sub-millisecond inference latency. Memory-efficient; bounded consumption for edge deployment. Robust to concept drift; continuous model updates.
+
+Cons: Limited selection of deep learning models. Does not natively leverage GPU acceleration. Focuses on clarity over raw batch performance. Fewer "out-of-the-box" forecasting-based detectors.
+
+<strong>Salesforce Merlion: A Unified Framework for Time Series Intelligence</strong>
+
+Merlion provides an end-to-end framework covering data loading, transformation, model building, post-processing, and evaluation. Its design is split into five functional layers: Data, Modeling, Post-Processing, Ensemble, and Evaluation. Merlion 2.0 introduced change point detection and a clickable visual UI. Described as "actively maintained by Salesforce AI Research" under the BSD-3-Clause license.
+
+Pros: Extremely feature-rich with many built-in models. Handles seasonality and trend via forecasting and post-processing. AutoML for hyperparameter tuning. PySpark distributed backend for scaling.
+
+Cons: Very large and complex. Some models require a JDK installation. Heavier dependency tree than other options.
+
+<strong>MIT Orion: Verified Pipelines for Unsupervised Detection</strong>
+
+Orion is developed at MIT specifically for unsupervised time series anomaly detection. It provides "verified pipelines" that have been rigorously tested on industrial and scientific datasets. Key models include TadGAN and AER (Auto-Encoder with Regression). Latest release v0.7.1 in March 2025 introduced support for foundation models like TimesFM and UniTS. Supports Python 3.10 and 3.11. Published under the MIT License.
+
+Pros: Verified, pre-configured pipelines tested on industrial datasets. Interactive UI for domain expert annotation. Integrated AutoML for pipeline configuration. Validated on spacecraft and electric vehicle telemetry.
+
+Cons: GPU-heavy for optimal performance. Smaller community than other options.
+
+<strong>Seldon Alibi Detect: Monitoring Outliers, Drift, and Adversarial Inputs</strong>
+
+Alibi Detect provides both online (streaming) and offline (batch) detectors. Key algorithms include Spectral Residual (SR) for time series, Maximum Mean Discrepancy (MMD) drift detector, and Sequence-to-Sequence (Seq2Seq). Supports TensorFlow, PyTorch, and KeOps backends. Deeply integrated into Seldon Core and KFServing platforms. Version 0.13.0 released December 2025. Maintained under the Business Source License 1.1.
+
+Pros: Rich suite of online and offline detectors. Backend flexibility (TensorFlow, PyTorch, scikit-learn). Verified on Python 3.11+ and 3.12. Supports saving and loading detector states.
+
+Cons: Business Source License may have restrictions for certain commercial redistributions. Heavier than pure-Python alternatives.
+
+</details>
+
+<details>
+<summary><strong>Perplexity (free tier) - Full Response</strong></summary>
+
+Perplexity recommended four libraries: STUMPY, PyOD, PySAD, and Merlion (with caveats). It also explicitly warned against ADTK.
+
+<strong>1. STUMPY: Best Overall for Your Use Case</strong>
+
+STUMPY computes the matrix profile, an exact, training-free technique that identifies the nearest-neighbor distance for every subsequence in a time series. Streaming-native via stumpy.stumpi with constant-time updates per data point. Multivariate support via stumpy.mstump. GPU acceleration (gpu_stump), Dask distributed computing (stumped), and Numba JIT compilation. Very actively maintained: released v1.14.1 in February 2026. Minimal dependencies: only numpy, scipy, and numba.
+
+Pros: Exact results (no false positives from model drift), zero training time, streaming support, excellent tutorials, peer-reviewed (JOSS publication), battle-tested in industrial anomaly detection research.
+
+Cons: Requires choosing a window size m (the expected pattern length). Not a full ML framework. Discord discovery is powerful for subsequence anomalies but requires wrapping for point-level spike detection.
+
+<strong>2. PyOD: Best Algorithm Breadth and Maturity</strong>
+
+PyOD is the most widely adopted Python anomaly detection library, with 50+ algorithms and over 26 million downloads. Version 2 (released 2024-2025) adds 12 deep learning models via PyTorch and LLM-powered automated model selection. v2.0.6 released December 2025.
+
+Pros: Battle-tested in production (Databricks integration), excellent documentation, largest community, easy to ensemble multiple detectors via SUOD for parallel training.
+
+Cons: Not time-series-native. Operates on tabular feature vectors, so you must manually engineer temporal features (sliding windows, lag features, rolling statistics). No built-in seasonality decomposition, streaming mode, or temporal awareness.
+
+<strong>3. PySAD: Best for Pure Streaming</strong>
+
+PySAD is purpose-built for anomaly detection on streaming data, implementing 17+ algorithms that operate under strict constraints: bounded memory, single-pass processing, and constant-time complexity per observation. v0.3.4 released June 2025 with Python 3.13 CI support.
+
+Pros: Lowest latency of any option (O(1) per observation), minimal memory footprint, exactly matches the "near-real-time streaming" requirement, scikit-learn-compatible API.
+
+Cons: Smaller community and ecosystem. Limited built-in support for explicit seasonality. Pinned dependency versions could cause conflicts. Less comprehensive documentation.
+
+<strong>4. Merlion (Salesforce): Best Full Framework (with Caveats)</strong>
+
+Merlion is the most complete end-to-end framework, built by Salesforce Research. DefaultDetector is an ensemble of ETS + Random Cut Forest that works well out-of-the-box. Seasonality-aware with STL decomposition, ETS, Prophet integration.
+
+Pros: Most complete feature set. Handles univariate and multivariate. AutoML for hyperparameter tuning. PySpark distributed backend. GUI dashboard.
+
+Cons: Last PyPI release was February 2023 (v2.0.2), over three years old. While community PRs are still being submitted (as recently as February 2026), the core Salesforce team has not shipped a release since. Some models require a JDK installation. Heavier dependency tree. Risk of compatibility issues accumulating without official releases.
+
+<strong>Explicit Warning:</strong> "Avoid ADTK, despite its clean API and some continued community usage, its last release was April 2020 and it has known compatibility issues with modern pandas."
+
+Perplexity provided 63 source citations in its response.
+
+</details>
