@@ -3,6 +3,7 @@ title: 'Breaking Deep Research: Where Retail User LLM Search Agents Fail and Why
 date: 2026-03-03
 permalink: /posts/2026/03/breaking-deep-research-where-llm-search-agents-fail/
 excerpt: "Deep research tools from OpenAI, Google, and Perplexity promise source-grounded synthesis, but their reliability depends heavily on what they are searching. Professional tools connected to peer-reviewed databases like PubMed have a built-in quality gate: the barrier to publication is literally peer review. But for code repositories, blog posts, and other sources with no editorial barrier, deep research inherits every error, exaggeration, and fabrication in the source material. Digging into some of the recent literature myself, it looks like studies often find citation accuracy as low as 40% and fabricated references. I tested all three tools on the same library-evaluation question as a small experiment to show how they can fail (a la proof by contradiction). One tool recommended an abandoned library as its top pick with an apparently fabricated release date. The issue of AI-generated content infiltrating peer review itself is a separate and important problem, but not within the scope of this post."
+read_time_minutes: 15
 tags:
   - AI
   - deep-research
