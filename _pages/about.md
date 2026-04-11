@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently working at Mondelēz as a Data Science Manager in the Marketing Acceleration and Insights Group under [Navneet Gill](https://www.linkedin.com/in/navneet-gill-33a76ba/) and [Rakesh Loonawat](https://www.linkedin.com/in/rakeshloonawat/), where I focus on consumer research and providing product portfolio insights using methods in [Algorithmic Marketing](https://www.algorithmicmarketingbook.com/), with a growing focus on automating analytical workflows and model deployment through cloud computing at scale.
+I am currently working at Mondelēz as a Business Intelligence and Forecasting Manager in the Insights and Analytics Group under [Ryan Grum](https://www.linkedin.com/in/ryan-grum-acpf-6092a072/) and closely with [Matthew Kullmann](https://www.linkedin.com/in/matthew-kullmann-37191778/), where I focus on consumer research and providing product portfolio insights using methods in [Algorithmic Marketing](https://www.algorithmicmarketingbook.com/), alongside automating analytical workflows and model deployment through cloud computing at scale.
 
 My Interests
 ======
