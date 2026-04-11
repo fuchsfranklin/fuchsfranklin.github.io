@@ -28,7 +28,9 @@ Skills and Interests
 Work
 ------
 
-* __Mondelēz Insights and Analytics Group__ \- _Data Science Manager_ (Jun. 2025 - Present)
+* __Mondelēz Insights and Analytics Group__ \- _Business Intelligence and Forecasting Manager_ (Apr. 2026 - Present)
+
+* __Mondelēz Insights and Analytics Group__ \- _Data Science Manager_ (Jun. 2025 - Apr. 2026)
 
 * __Pfizer Digital Client Partners__ \- _Data Scientist - DRP Associate_ (Jun. 2024 - Jun. 2025)
   * Programming static and time-dependent forced ranking systems for target product profile support using various Multi-Objective Optimization Algorithms, including Evolutionary Algorithms, Reinforcement Learning, and Robust Portfolio Optimization in Python and R, also supporting expanding existing indications of Pfizer’s current portfolio drugs under competing drug efficacy, safety, viability, and stakeholder preference functions.
