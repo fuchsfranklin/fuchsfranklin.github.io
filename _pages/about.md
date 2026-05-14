@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently working at Mondelēz as a Business Intelligence and Forecasting Manager in the Insights and Analytics Group under [Ryan Grum](https://www.linkedin.com/in/ryan-grum-acpf-6092a072/) and closely with [Matthew Kullmann](https://www.linkedin.com/in/matthew-kullmann-37191778/), where I focus on consumer research and providing product portfolio insights using methods in [Algorithmic Marketing](https://www.algorithmicmarketingbook.com/), alongside automating analytical workflows and model deployment through cloud computing at scale.
+I am currently working at Mondelēz as a Business Intelligence and Forecasting Manager in the Insights and Analytics Group under [Ryan Grum](https://www.linkedin.com/in/ryan-grum-acpf-6092a072/), where I focus on consumer research and providing product portfolio insights using methods in [Algorithmic Marketing](https://www.algorithmicmarketingbook.com/), alongside automating analytical workflows and model deployment through cloud computing at scale.
 
 My Interests
 ======
