@@ -19,16 +19,17 @@ Education
 	
 * __University of Nevada, Reno__ \- _Honors BS in Mathematics (Statistics Emphasis), Minor in Big Data_ (2017 - 2021)
 
-Skills and Interests
+Skills
 ------
-* __Programming Languages__: R, Python, SQL, C++, C, MATLAB
-* __Software__: GCP, AWS, Databricks, BigQuery, Dataiku, Docker, Singularity, SLURM, Markdown, Shiny, LaTeX, Linux Shell, Office Suite, Git, and GitHub
-* __Modeling and Computing__: Multi-Objective Optimization, Classification, Regression, Time Series Forecasting, Predictive Analytics, Feature Engineering, Variable Selection, Data Wrangling, Exploratory Data Analysis, High-Performance/Cluster Computing, Containerization, Database Design and Implementation, Web-Application Development, Interactive Data Visualization, LLM Infrastructure Testing/Development
+* __Agentic Development Environments__: Kiro, GitHub Copilot
+* __Programming Languages__: R, Python, SQL, C++, C
+* __Software__: GCP, AWS, Databricks, BigQuery, NielsenIQ Discover (POS & Panel Data), Dataiku, Docker, Singularity, SLURM, Markdown, Shiny, LaTeX, Linux Shell, Office Suite, Git, and GitHub
+* __Modeling and Computing__: Multi-Objective Optimization, Classification, Regression, Retail Price Elasticity Modeling, Time Series Forecasting, Predictive Analytics, Feature Engineering, Variable Selection, Data Wrangling, Exploratory Data Analysis, High-Performance/Cluster Computing, Containerization, Database Design and Implementation, Web-Application Development, Interactive Data Visualization, LLM Infrastructure Testing/Development
 
 Work
 ------
 
-* __Mondelēz Insights and Analytics Group__ \- _Business Intelligence and Forecasting Manager_ (Apr. 2026 - Present)
+* __Mondelēz Insights and Analytics Group__ \- _Business Intelligence, Forecasting & Data Science Manager_ (Apr. 2026 - Present)
 
 * __Mondelēz Insights and Analytics Group__ \- _Data Science Manager_ (Jun. 2025 - Apr. 2026)
 
