@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am currently working at Mondelēz as a Business Intelligence and Forecasting Manager in the Insights and Analytics Group under [Ryan Grum](https://www.linkedin.com/in/ryan-grum-acpf-6092a072/), where I focus on consumer research and delivering product portfolio insights through modeling at the intersection of econometrics and machine learning for performance insights, alongside scaling forecasting workflows and automating analytical pipelines through cloud computing at scale.
+I currently work at Mondelēz as a Business Intelligence, Forecasting & Data Science Manager in the Marketing, Strategy & Insights Organization, where I combine consumer research with econometrics and machine learning to guide product portfolio decisions, and modernize our data science workflows with cloud computing and AI tooling.
 
-My Interests
+What Gets Me Curious
 ======
-The areas and ideas I (personally) think about a lot often relate to [fat tailed distributions](https://arxiv.org/abs/2001.10488), or more accessibly thought of as [black swan](https://www.randomhousebooks.com/books/176226/) type phenomena. I also like learning about concepts in psychology, especially behavioural science and mental health. In my free time I like to exercise.
+I'm a little obsessed with the math of the improbable: [fat tailed distributions](https://arxiv.org/abs/2001.10488), or as most people know them, [black swan](https://www.penguinrandomhouse.com/books/176226/the-black-swan-second-edition-by-nassim-nicholas-taleb/) events. There's something magnetic about a framework built entirely around the stuff that isn't supposed to happen. I'm just as drawn to psychology, especially behavioural science and mental health, and the two obsessions end up feeding each other more often than you'd expect.
