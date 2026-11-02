@@ -1,2 +1,4 @@
 _site/
 
+# Private working files: resumes, cover letters, job analyses. Never commit.
+_private/
