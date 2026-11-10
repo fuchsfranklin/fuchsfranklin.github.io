@@ -1,6 +1,6 @@
 ---
 title: "Pediatric Traumatic Brain Injury (TBI) Mortality Prediction Web-Application"
-excerpt: "This pediatric TBI prediction web-application is part of my honors thesis on imbalanced outcome pediatric patient mortality classification, where the best-performing C5.0 decision tree classifier trained on Synthetic Minority Over-sampling TEchnique (SMOTE) subsampled data is the predictive model implemented here. Potential applications of such a web-application, as recommended to us by clinicians, could be when either diagnosis by a clinician is not possible or as an indirect clinicians aid to give an approximate survival estimate for parents or guardians. Simplicity, speed, and portability were the main priorities considered when developing the application."
+excerpt: "This pediatric TBI prediction web-application is part of my honors thesis on imbalanced outcome pediatric patient mortality classification, where the best-performing C5.0 decision tree classifier trained on Synthetic Minority Over-sampling TEchnique (SMOTE) subsampled data is the predictive model implemented here. The clinicians we spoke with suggested two uses: cases where a clinician can't make a diagnosis, and as an indirect aid for giving parents or guardians a rough survival estimate. I kept the app simple, fast, and portable on purpose."
 collection: portfolio
 ---
 <br />
@@ -12,6 +12,6 @@ collection: portfolio
 
 ###### _(R and Shiny-based Programming Project)_
 
-This pediatric TBI prediction web-application is part of my honors thesis on imbalanced outcome pediatric patient mortality classification, where the best-performing C5.0 decision tree classifier trained on Synthetic Minority Over-sampling TEchnique (SMOTE) subsampled data is the predictive model implemented here. Potential applications of such a web-application, as recommended to us by clinicians, could be when either diagnosis by a clinician is not possible or as an indirect clinicians aid to give an approximate survival estimate for parents or guardians. Simplicity, speed, and portability were the main priorities considered when developing the application.
+This pediatric TBI prediction web-application is part of my honors thesis on imbalanced outcome pediatric patient mortality classification, where the best-performing C5.0 decision tree classifier trained on Synthetic Minority Over-sampling TEchnique (SMOTE) subsampled data is the predictive model implemented here. The clinicians we spoke with suggested two uses: cases where a clinician can't make a diagnosis, and as an indirect aid for giving parents or guardians a rough survival estimate. I kept the app simple, fast, and portable on purpose.
 
 

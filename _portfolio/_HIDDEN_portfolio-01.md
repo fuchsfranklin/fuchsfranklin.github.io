@@ -1,6 +1,6 @@
 ---
 title: "Exploratory COVID-19 Modeling: Because There Weren't Already Enough Predictive COVID-19 Projects"
-excerpt: "This project analyzes COVID-19 pandemic dynamics through three lenses: healthcare system strain, pandemic fatigue, and policy effectiveness. Using ensemble methods, we predict ICU utilization with strong cross-country generalizability. We operationalize pandemic fatigue through a data-driven approach combining social media sentiment, policy stringency, and transmission trends. Finally, we quantify policy intervention lag using multiple time-series methods, revealing the temporal gap between implementation and observable effects. Interactive dashboard and full analysis available"
+excerpt: "This project looks at three questions about the COVID-19 pandemic: how strained hospitals got, whether pandemic fatigue can be measured, and how long policies took to show an effect. We predict ICU use with ensemble models that generalize well across countries, build a pandemic fatigue measure from social media sentiment, policy stringency, and transmission trends, and estimate the lag between a policy starting and its effect showing up in the data with several time-series methods. The interactive dashboard and full analysis are in the repo."
 collection: portfolio
 ---
 <br />
@@ -8,4 +8,4 @@ collection: portfolio
 
 ## Project Overview
 
-This project analyzes COVID-19 pandemic dynamics through three lenses: healthcare system strain, pandemic fatigue, and policy effectiveness. Using ensemble methods, we predict ICU utilization with strong cross-country generalizability. We operationalize pandemic fatigue through a data-driven approach combining social media sentiment, policy stringency, and transmission trends. Finally, we quantify policy intervention lag using multiple time-series methods, revealing the temporal gap between implementation and observable effects. Interactive dashboard and full analysis available
+This project looks at three questions about the COVID-19 pandemic: how strained hospitals got, whether pandemic fatigue can be measured, and how long policies took to show an effect. We predict ICU use with ensemble models that generalize well across countries, build a pandemic fatigue measure from social media sentiment, policy stringency, and transmission trends, and estimate the lag between a policy starting and its effect showing up in the data with several time-series methods. The interactive dashboard and full analysis are in the repo.

@@ -1,6 +1,6 @@
 ---
 title: "Comparing Variable Selection Techniques on Simulated Data"
-excerpt: "The aims of this project are to simulate multivariate data from three underlying linear models with varying degrees of correlation among predictors and then observing how effective different variable selection methods perform on each dataset by fitting a linear regression model with the selected variables. Thus, we first simulate 50 datasets for every underlying model from section 7 of the Paper \"Regression Shrinkage and Selection via the Lasso\" by Tibshirani (1996). We then fit the models according several variable selection and shrinkage methods and consider Akaike Information Criterion (AIC), Bayesian Information Criterion (BIC), and Adjusted R-Squared Value as performance metrics."
+excerpt: "This project simulates multivariate data from three underlying linear models with different amounts of correlation among the predictors, then checks how well several variable selection methods do on each dataset when a linear regression is fit with the variables they pick. We simulate 50 datasets for each of the underlying models in section 7 of Tibshirani's (1996) paper \"Regression Shrinkage and Selection via the Lasso\", fit models using several variable selection and shrinkage methods, and compare them on the Akaike Information Criterion (AIC), the Bayesian Information Criterion (BIC), and adjusted R-squared."
 collection: portfolio
 ---
 <br />
@@ -12,6 +12,6 @@ collection: portfolio
 
 ###### _(R and Markdown-based Programming Project)_
 
-The aims of this project are to simulate multivariate data from three underlying linear models with varying degrees of correlation among predictors and then observing how effective different variable selection methods perform on each dataset by fitting a linear regression model with the selected variables. Thus, we first simulate 50 datasets for every underlying model from section 7 of the Paper \"Regression Shrinkage and Selection via the Lasso\" by Tibshirani (1996). We then fit the models according several variable selection and shrinkage methods and consider Akaike Information Criterion (AIC), Bayesian Information Criterion (BIC), and Adjusted R-Squared Value as performance metrics.
+This project simulates multivariate data from three underlying linear models with different amounts of correlation among the predictors, then checks how well several variable selection methods do on each dataset when a linear regression is fit with the variables they pick. We simulate 50 datasets for each of the underlying models in section 7 of Tibshirani's (1996) paper \"Regression Shrinkage and Selection via the Lasso\", fit models using several variable selection and shrinkage methods, and compare them on the Akaike Information Criterion (AIC), the Bayesian Information Criterion (BIC), and adjusted R-squared.
 
 
