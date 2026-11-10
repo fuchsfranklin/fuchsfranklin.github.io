@@ -1,6 +1,6 @@
 ---
 title: "Shiny-Based Personal Project Portfolio Web-Application"
-excerpt: "I created this project as my previous personal website to improve my R Shiny and HTML programming skills. Given that Shiny applications are more dynamic and are made for visualizing and making statistical analyses more interactive, I decided to retire this web-application for this current website."
+excerpt: "This was my previous personal website, which I built mostly to get better at R Shiny and HTML. Shiny is really built for interactive visualizations and statistical analyses, and a mostly static site didn't need any of that, so I eventually retired it in favor of this one."
 collection: portfolio
 ---
 <br />
@@ -12,6 +12,6 @@ collection: portfolio
 
 ###### _(R and Shiny-based Programming Project)_
 
- I created this project as my previous personal website to improve my R Shiny and HTML programming skills. Given that Shiny applications are more dynamic and are made for visualizing and making statistical analyses more interactive, I decided to retire this web-application for this current website.
+ This was my previous personal website, which I built mostly to get better at R Shiny and HTML. Shiny is really built for interactive visualizations and statistical analyses, and a mostly static site didn't need any of that, so I eventually retired it in favor of this one.
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Enhancing DataTrail Data Science Education: The BaltimoreTrails R Package and Dashboard"
-excerpt: "The BaltimoreTrails R package and associated dashboard are a comprehensive toolkit designed to facilitate the integration, manipulation, visualization, and interactive access of Baltimore datasets. Developed as part of the [DataTrail](https://www.datatrail.org/) initiative by the Johns Hopkins Bloomberg School of Public Health, this package and associated dashboard aim to provide a more localized, interactive, and relevant learning experience for students."
+excerpt: "An R package and Shiny dashboard that bring Baltimore datasets into [DataTrail](https://www.datatrail.org/), the Johns Hopkins Bloomberg School of Public Health's data science training program, so students can practice on local data. This was my ScM thesis project."
 collection: portfolio
 ---
 <br />
@@ -12,20 +12,9 @@ collection: portfolio
 
 ###### _(R Package and Shiny-based Dashboard)_
 
-Data science education is a rapidly evolving field, with a growing demand for
-interactive and personalized learning experiences. The [DataTrail](https://www.datatrail.org/) curriculum, developed
-by the Johns Hopkins Bloomberg School of Public Health, is a pioneering initiative in
-this regard, offering a comprehensive and accessible platform for data science learning. This work introduces BaltimoreTrails, a tool designed to enhance the existing
-DataTrail curriculum by integrating local data and providing interactive tools for
-data manipulation and visualization.
-BaltimoreTrails, the focus of this work, is a comprehensive tool that integrates
-Baltimore datasets into an interactive Shiny Web-App, providing a localized and
-relevant learning experience for students. Additionally, this work presents the
-development of an R package, offering a suite of functions and tools for data
-manipulation and visualization. This package, designed to be user-friendly and
-accessible, is a valuable resource for both students and teachers.
-The development of BaltimoreTrails is a significant contribution to the DataTrail
-initiative, enhancing its capabilities and expanding its reach.
+[DataTrail](https://www.datatrail.org/) is a data science training program run out of the Johns Hopkins Bloomberg School of Public Health. The idea behind BaltimoreTrails, my ScM thesis project, was that students would get more out of the material if they practiced on local Baltimore data instead of generic examples.
+
+There are two parts. The R package bundles a set of Baltimore datasets with helper functions for loading, wrangling, and plotting them. It's built on dplyr, tidyr, and ggplot2, so it should feel familiar to anyone who has worked through the DataTrail R lessons. The Shiny dashboard puts the same data behind an interactive front end, so students can poke around before writing any code. Both are open source, and the next step we had in mind was a few learnr tutorial chapters that use the package directly.
 
 
 

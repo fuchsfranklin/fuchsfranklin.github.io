@@ -34,15 +34,15 @@ Work
 * __Mondelēz Marketing, Strategy & Insights__ \- _Data Science Manager_ (Jun. 2025 - Apr. 2026)
 
 * __Pfizer Digital Client Partners__ \- _Data Scientist - DRP Associate_ (Jun. 2024 - Jun. 2025)
-  * Programming static and time-dependent forced ranking systems for target product profile support using various Multi-Objective Optimization Algorithms, including Evolutionary Algorithms, Reinforcement Learning, and Robust Portfolio Optimization in Python and R, also supporting expanding existing indications of Pfizer’s current portfolio drugs under competing drug efficacy, safety, viability, and stakeholder preference functions.
-  * Designing interactive D3, Python, and R-based visualizations to highlight the unmet needs areas for various demographic patient groups for diseases in Pfizer’s drug portfolio, using AWS for visualization deployments/usage data collection and custom HTML/CSS for user interface styling.
-  * Enhancing internal/vendor data APIs with LLM functionalities for accelerated unstructured and structured data ingestion, creating retrieval augmented generation systems with source citation, and (tabular data) disease evidence map generation using specialized decision science and topic expert LLM-based agents. 
+  * Programming static and time-dependent forced ranking systems for target product profile support using various Multi-Objective Optimization Algorithms, including Evolutionary Algorithms, Reinforcement Learning, and Robust Portfolio Optimization in Python and R, also supporting expanding existing indications of Pfizer's current portfolio drugs under competing drug efficacy, safety, viability, and stakeholder preference functions.
+  * Designing interactive D3, Python, and R-based visualizations to highlight the unmet needs areas for various demographic patient groups for diseases in Pfizer's drug portfolio, using AWS for visualization deployments/usage data collection and custom HTML/CSS for user interface styling.
+  * Extending internal/vendor data APIs with LLM functionality for accelerated unstructured and structured data ingestion, creating retrieval augmented generation systems with source citation, and (tabular data) disease evidence map generation using specialized decision science and topic expert LLM-based agents. 
 
 * __Pfizer AI/ML/Analytics Enterprise Architecture and L&D Analytics__ \- _Software/Solution Engineer - DRP Associate_ (Jun. 2023 - Jun. 2024)
-  * Prototyped architectural features including Vector Databases and Retrieval Augmented Generation for the internal Large Language/GPT Model with enterprise scalability as the primary priority, utilizing AWS cloud-based tools and presenting results as an accessible Python/Streamlit-based interactive web-application.
-  * Developed an Enterprise Architecture CityMap tool in Python to allow Architecture team members to easily provide project and skillset overviews in accessible and intuitive manner, thus preventing the horizontal siloing of AI/ML/Analytics-based projects throughout the enterprise.
+  * Prototyped architectural features including Vector Databases and Retrieval Augmented Generation for the internal Large Language/GPT Model with enterprise scalability as the primary priority, using AWS cloud-based tools and presenting results as an accessible Python/Streamlit-based interactive web-application.
+  * Developed an Enterprise Architecture CityMap tool in Python to allow Architecture team members to easily provide project and skillset overviews in an accessible and intuitive way, thus preventing the horizontal siloing of AI/ML/Analytics-based projects throughout the enterprise.
   * Contributed to the evaluation framework documentation for the Architecture Data/Analytics Platform, addressing statistical and scalability concerns, also reviewing capabilities of services for the Data Visualization Decision Guide to ensure accurate and justified tool/service/programming language recommendations.
-  * Created interactive dashboards and automating data visualization pipelines using a combination of Power BI, Tableau, Python, and Excel in the context of commercial and learning/development related outcomes data. 
+  * Created interactive dashboards and automated data visualization pipelines using a combination of Power BI, Tableau, Python, and Excel in the context of commercial and learning/development related outcomes data. 
 
 * __Pfizer Machine Learning and Computational Science Group__ \- _Data Scientist Intern_ (Jun. 2022 - Aug. 2022)
 	* Cooperated with Chemical Biology Group scientists to incrementally develop a MySQL database to store and query experiment, protein, and meta-data, thus also providing a deliverable that functioned as a proof of concept for other Pfizer groups with lacking proteomics data infrastructure.
@@ -52,7 +52,7 @@ Work
 
 * __Pfizer Simulation and Modeling Science Group__ \- _Software Development Intern_ (Jun. 2021 - Aug. 2021)
 	* Implemented an automated data pipeline in R, providing standardized computational proteomics cloud (SevenBridges) task execution and management capabilities.
-	* Optimized the functionality and speed of core pipeline elements, using API’s for virtual private cloud interfacing and MySQL database task logging.
+	* Optimized the functionality and speed of core pipeline elements, using APIs for virtual private cloud interfacing and MySQL database task logging.
     * Developed an R Shiny-based General User Interface, using reactivity, datatable, and dashboard layout elements to provide user-friendly access to pipeline tools.
     * Wrote Markdown-based documentation to provide software feature and usage instructions.
 	
@@ -65,7 +65,7 @@ Work
 	* Developed a user-friendly R Shiny web-application to deploy the best-performing prediction model.
 	* Containerized parallelized R-based analyses in Docker and Singularity to minimize model training times on local high-performance computing clusters.
 	* Minimized class imbalance effects of models using case-weighted models, subsampling techniques, and robust performance evaluation metrics.
-	* Utilized both supervised machine learning and traditional statistical methods for pediatric patient traumatic brain injury predictive modeling.
+	* Used both supervised machine learning and traditional statistical methods for pediatric patient traumatic brain injury predictive modeling.
 
 * __UNR Department of Mathematics__ \- _Statistics Research Assistant_ (Aug. 2019 - Jan. 2020)
 	* Recommended future medical student outcome data collection and data evaluation strategies.
@@ -75,7 +75,7 @@ Work
 * __Swiss Armed Forces Nuclear, Biological, Chemical Defense School__ \- _Biology Laboratory Specialist_ (Jul. 2016 - Dec. 2016)
 	* Identified microbiological hazards using multiple bacterial identification approaches.
 	* Performed bacterial contamination analyses in a Biosafety Level 3 laboratory.
-	* Worked as team coordinator to summarize, deliver, and present daily analysis results in an clear, concise, and timely manner. 
+	* Worked as team coordinator to summarize, deliver, and present daily analysis results clearly and on time. 
   
 Posters, Presentations, and Projects
 ------

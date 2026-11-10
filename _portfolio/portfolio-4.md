@@ -1,6 +1,6 @@
 ---
 title: "An Intuitive Introduction to Metropolis-Hastings Algorithm Sampling and Diagnostics"
-excerpt: "The first aim of this stochastic models and simulation project is to understand the metropolis-hastings algorithm and several markov-chain-monte-carlo diagnostic methods at a more intuitive and visual level through plots that are both animated and interactive. My second aim is to present my first aim in a cohesive and compact manner to those unfamiliar with MCMC and the R-Programming Language. It is important to mention that the time-dependent nature of a markov chain and the amount of visually appealing parameters are optimal for creating animated illustrations."
+excerpt: "My first aim in this stochastic models and simulation project was to understand the Metropolis-Hastings algorithm and a few Markov chain Monte Carlo (MCMC) diagnostics at a more intuitive, visual level, using plots that are both animated and interactive. The second was to present that compactly to people who are new to MCMC and to R. Markov chains lend themselves well to animation, since each step depends on the previous one and there are plenty of parameters worth watching evolve."
 collection: portfolio
 ---
 <br />
@@ -12,6 +12,6 @@ collection: portfolio
 
 ###### _(R and Shiny-based Programming Project)_
 
-The first aim of this stochastic models and simulation project is to understand the metropolis-hastings algorithm and several markov-chain-monte-carlo diagnostic methods at a more intuitive and visual level through plots that are both animated and interactive. My second aim is to present my first aim in a cohesive and compact manner to those unfamiliar with MCMC and the R-Programming Language. It is important to mention that the time-dependent nature of a markov chain and the amount of visually appealing parameters are optimal for creating animated illustrations.
+My first aim in this stochastic models and simulation project was to understand the Metropolis-Hastings algorithm and a few Markov chain Monte Carlo (MCMC) diagnostics at a more intuitive, visual level, using plots that are both animated and interactive. The second was to present that compactly to people who are new to MCMC and to R. Markov chains lend themselves well to animation, since each step depends on the previous one and there are plenty of parameters worth watching evolve.
 
 
