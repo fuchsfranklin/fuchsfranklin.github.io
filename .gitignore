@@ -1,4 +1,15 @@
+# Build output and caches
 _site/
+.sass-cache/
+.jekyll-cache/
+.bundle/
+/vendor/
+Gemfile.lock
+node_modules
+package-lock.json
+
+# Built by the GitHub Actions workflow (.github/workflows/jekyll.yml); never commit
+assets/js/main.min.js
 
 # Private working files: resumes, cover letters, job analyses. Never commit.
 _private/
